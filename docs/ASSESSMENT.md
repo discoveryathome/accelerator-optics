@@ -129,7 +129,7 @@ runs avoid by using Matplotlib's bundled fonts.
    multi-fidelity evaluation and failure diagnosis. A strong baseline should leave
    enough useful tasks for the first several contributors, not merely the first one.
 
-A reasonable next go/no-go experiment is a few genuinely separate contributor sessions
+A reasonable next go/no-go experiment is a few separate contributor sessions
 on one expert-approved nonlinear or robust-transport fixture, with equal-budget strong
 baselines and blinded held-out validation. Feature it only if those sessions produce
 repeated useful improvements that the expert accepts. Until then, the present pilot
@@ -140,3 +140,22 @@ The field itself is meaningful: published work combines tracking and analytic ph
 for dynamic-aperture optimization, and modern methods address expensive multiobjective
 queries. That also means strong baselines already exist. See the linked primary
 sources and scoped novelty audit in [LITERATURE-UPDATE.md](LITERATURE-UPDATE.md).
+
+## Reproduction record
+
+The retained candidates and five-case table were checked from a separate clean local
+clone using the pinned virtual environment. All four task-card first steps completed.
+A generic-search seed and an epigraph-search seed were replayed from that clone and
+matched saved strengths/scores to 1e-10. The source-level test suite has 16 passing
+tests, including false claims, invalid strengths, chromaticity/aperture failures,
+loss handling and the fixed-injection gate. Raw logs are in `results/trial/`.
+The fresh clone reused the installed dependency environment; this was not a second
+machine or a second independent reviewer.
+
+The upstream protocol validator reports the missing consenting maintainer as the
+remaining schema error. It also notes optional absent public coordination/review
+infrastructure, appropriate to this unlisted LOCAL proposal. Nothing was published.
+The verifier and frontier deserve the most care; expert review capacity, rather than
+more donated optimizer evaluations, is likely to set this project's useful pace.
+
+Trial receipt: 29.4 minutes elapsed, including setup, research, visualization and clean-clone validation. The final replay passed all 30 retained reference/candidate/table checks; two full-profile tracking cases also reproduced to 1e-12. Source snapshot: `5fe496369bd253b85ca482ae41e08c1495a87723`.

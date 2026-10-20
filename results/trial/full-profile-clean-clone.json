@@ -1,0 +1,20 @@
+[
+  {
+    "configuration": "reference",
+    "seed": 1009,
+    "status": "PASS",
+    "worst_sampled_rms_m": [
+      0.0031001975616330455,
+      0.003371037413829249
+    ]
+  },
+  {
+    "configuration": "fixed_entrance",
+    "seed": 1009,
+    "status": "PASS",
+    "worst_sampled_rms_m": [
+      0.003024950315009929,
+      0.0031002406538183686
+    ]
+  }
+]

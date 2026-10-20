@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-10-20T20:08:55+00:00",
+  "completed_at": "2026-10-20T20:38:18.842705+00:00",
+  "elapsed_minutes": 29.397378416666665,
+  "mode": "LOCAL",
+  "source_commit": "5fe496369bd253b85ca482ae41e08c1495a87723",
+  "validation": {
+    "tests_passed": 16,
+    "retained_reference_candidate_table_checks": 30,
+    "clean_clone_search_replays": [
+      "slsqp seed 19",
+      "epigraph seed 7"
+    ],
+    "clean_clone_tracking_replays": [
+      "reference seed 1009 common injection",
+      "fixed entrance seed 1009 common injection"
+    ]
+  },
+  "evidence_level": "author-checked",
+  "independent_reviewer": false,
+  "publication": false,
+  "maintainer": null,
+  "scope": "Five fixed-specification thin-lens cases; synthetic tracking/error probes; no real-machine claim."
+}

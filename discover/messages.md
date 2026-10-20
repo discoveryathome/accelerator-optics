@@ -13,3 +13,22 @@ The manifest intentionally has no maintainers, a known proposal-stage schema exc
 ```discover
 {"v":0,"kind":"handoff","task":"local-bootstrap","scope":"Prepared local FODO pilot; execution and scientific validation pending","base":"uncommitted-local-draft","posted_at":"2026-10-20T20:00:40Z","evidence_level":"local-only","request":{"question":"Authorize unsandboxed local execution, then establish whether the pilot passes its scientific checks.","first_step":"After user approval, screen the source and install requirements in a project-local virtual environment; run the analytic reference checker before any search.","success_test":"Reference and negative tests pass; candidates independently cross-checked; search, held-out tracking and plots reproduced from a clean checkout; actual results documented.","track":"replication","est_minutes":45}}
 ```
+
+# Local trial completion — not posted
+
+Completed the authorized roughly half-hour accelerator-optics contributor trial.
+The benchmark now has pinned dependencies, tested independent matrix/Xsuite checks,
+reproducible original and reformulated searches, separate fixed-injection fixtures,
+particle-tracking stress tests and inspected plots/animation. A clean local clone
+reproduced retained witnesses, selected full searches and full-lattice tracking cases.
+
+Recommendation: retain as an onboarding/demo pilot; do not lead with this version as
+a featured discovery project before an expert-approved realistic question, strong
+baselines and repeated useful independent contributions. Fixed-injection tracking
+shows about 5.5% narrower largest sampled RMS beam in the synthetic model. The simpler
+cases are exhausted quickly by standard optimization. No independent reviewer or
+consenting maintainer is recorded, and nothing was published.
+
+```discover
+{"v":0,"kind":"done","task":"local-bootstrap","scope":"Completed local accelerator-optics benchmark and featured-pilot contributor trial","base":"5fe496369bd253b85ca482ae41e08c1495a87723","posted_at":"2026-10-20T20:38:00Z","evidence_level":"author-checked","artifact":"docs/ASSESSMENT.md"}
+```
