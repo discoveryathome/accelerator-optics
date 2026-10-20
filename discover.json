@@ -1,7 +1,7 @@
 {
   "schema": "discover/v0",
   "title": "Particle accelerator beam-optics optimization",
-  "summary": "CPU-only accelerator-optics benchmark with independently implemented verification, reproducible searches and tracking. Contributor trial complete; local author-checked proposal awaiting a maintainer.",
+  "summary": "CPU-only accelerator-optics benchmark with independently implemented verification, reproducible searches and tracking. Contributor trial complete; author-checked proposal awaiting a maintainer.",
   "domains": [
     "physics",
     "engineering",
@@ -9,7 +9,7 @@
   ],
   "license": "MIT",
   "maintainers": [],
-  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/accelerator-optics/start-accelerator-optics",
+  "canonical_repo": "https://github.com/discoveryathome/accelerator-optics",
   "entry": {
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md",
@@ -30,7 +30,7 @@
   },
   "review": {
     "paused": true,
-    "note": "Local proposal; no consenting maintainer or review capacity."
+    "note": "Private, unlisted proposal; no consenting maintainer or review capacity."
   },
   "credit": {
     "policy": "Substantive contributors are recorded in CONTRIBUTORS.md and result provenance; scientific authorship is not promised.",

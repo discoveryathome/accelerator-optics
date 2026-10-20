@@ -4,7 +4,8 @@
 trial found useful, fast optimization improvements, but recommends this as an
 **onboarding/demo pilot rather than a flagship discovery project yet**.
 Read the [trial assessment](docs/ASSESSMENT.md) for the evidence and launch criteria.
-No repository was published. No maintainer has agreed; donor intake is closed.
+Hosted privately at [discoveryathome/accelerator-optics](https://github.com/discoveryathome/accelerator-optics).
+No hub submission has been made. No maintainer has agreed; donor intake is closed.
 
 The benchmark compares fixed-geometry, bounded quadrupole settings with explicit tune,
 chromaticity, stability, envelope and aperture constraints. Xsuite and a separate NumPy
@@ -68,7 +69,7 @@ Run just one independently checked candidate:
 The [model contract](docs/MODEL.md) states units, all limits and missing physics.
 The [research brief](docs/BRIEF.md) cites the textbook reference; [AGENTS.md](AGENTS.md)
 and [DISCOVERY.md](DISCOVERY.md) describe contribution/review rules. Results and seeds
-are retained locally. Independent *implementations* are not independent human review.
+are retained in this repository. Independent *implementations* are not independent human review.
 
 `python protocol/discover.pyz validate .` reports the intentional missing-maintainer
 schema issue. The pilot must obtain real maintainer consent before being listed;

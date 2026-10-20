@@ -1,7 +1,9 @@
 # Agent entry
 
 Read DISCOVERY.md, docs/BRIEF.md, docs/MODEL.md and discover/frontier.json first.
-This is a LOCAL proposal. No publication, donor intake or maintainer consent exists.
+This is a private GitHub proposal at discoveryathome/accelerator-optics.
+The user authorized repository creation and pushing the local pilot on 2026-10-20.
+No hub PR is authorized. Donor intake remains closed; no maintainer consent exists.
 The user authorized local dependency installation and benchmark execution on 2026-10-20.
 This session is unsandboxed; no further execution confirmation is needed for this trial.
 

@@ -154,7 +154,8 @@ machine or a second independent reviewer.
 
 The upstream protocol validator reports the missing consenting maintainer as the
 remaining schema error. It also notes optional absent public coordination/review
-infrastructure, appropriate to this unlisted LOCAL proposal. Nothing was published.
+infrastructure, appropriate to this unlisted proposal. Nothing was published during
+the trial; the user subsequently authorized a private GitHub repository, without a hub PR.
 The verifier and frontier deserve the most care; expert review capacity, rather than
 more donated optimizer evaluations, is likely to set this project's useful pace.
 

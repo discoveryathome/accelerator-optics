@@ -27,13 +27,14 @@ also need an independent contributor's reproduction and a consenting maintainer 
 Priority tracks are in discover/catalog.json, reasons in discover/priority-log.md.
 The proposed tracks are reference replication, verifier robustness, generalization
 and literature/fidelity audit. The contributor trial and launch recommendation are in docs/ASSESSMENT.md.
-No live claim board exists in LOCAL mode; local findings
-and handoffs live in discover/messages.md. Never post these without permission.
+The pilot is hosted privately at https://github.com/discoveryathome/accelerator-optics.
+No hub submission or live claim board exists; historical local findings
+and handoffs live in discover/messages.md. Posting to a board requires permission.
 
 Review: no maintainer is assigned, no review capacity is promised, and donor intake
-is closed. The upstream manifest schema requires at least one maintainer; this local
+is closed. The upstream manifest schema requires at least one maintainer; this unlisted
 proposal deliberately uses an empty array rather than inventing consent. This known
-schema exception must be resolved before publication. No hubs consent record exists.
+schema exception must be resolved before donor intake. No hubs consent record exists.
 
 Credit: record substantive contributors in CONTRIBUTORS.md and each result's provenance.
 No automatic paper authorship is promised. Proposed MIT license applies to original
