@@ -1,0 +1,162 @@
+[
+  {
+    "name": "adapter.schema.json",
+    "path": "spec/schemas/adapter.schema.json",
+    "sha": "21dec07259e1a2adf296464803f5d5888d3854f4",
+    "size": 4091,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/adapter.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/adapter.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/21dec07259e1a2adf296464803f5d5888d3854f4",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/adapter.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/adapter.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/21dec07259e1a2adf296464803f5d5888d3854f4",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/adapter.schema.json"
+    }
+  },
+  {
+    "name": "agent-index.schema.json",
+    "path": "spec/schemas/agent-index.schema.json",
+    "sha": "000aa00a298a4b7b9c98d64ece73a1add4ddc4eb",
+    "size": 3570,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/agent-index.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/agent-index.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/000aa00a298a4b7b9c98d64ece73a1add4ddc4eb",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/agent-index.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/agent-index.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/000aa00a298a4b7b9c98d64ece73a1add4ddc4eb",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/agent-index.schema.json"
+    }
+  },
+  {
+    "name": "assessment.schema.json",
+    "path": "spec/schemas/assessment.schema.json",
+    "sha": "6d06d5a65a5c81b91c9e1ae1c370b190ca35d2f9",
+    "size": 3228,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/assessment.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/assessment.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/6d06d5a65a5c81b91c9e1ae1c370b190ca35d2f9",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/assessment.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/assessment.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/6d06d5a65a5c81b91c9e1ae1c370b190ca35d2f9",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/assessment.schema.json"
+    }
+  },
+  {
+    "name": "catalog.schema.json",
+    "path": "spec/schemas/catalog.schema.json",
+    "sha": "4bbbde2688b60633ff11f17a9eac40d45b271f41",
+    "size": 4864,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/catalog.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/catalog.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/4bbbde2688b60633ff11f17a9eac40d45b271f41",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/catalog.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/catalog.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/4bbbde2688b60633ff11f17a9eac40d45b271f41",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/catalog.schema.json"
+    }
+  },
+  {
+    "name": "frontier.schema.json",
+    "path": "spec/schemas/frontier.schema.json",
+    "sha": "76935e2b317349fafa16b57e97b1345b0ff74fcb",
+    "size": 6548,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/frontier.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/frontier.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/76935e2b317349fafa16b57e97b1345b0ff74fcb",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/frontier.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/frontier.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/76935e2b317349fafa16b57e97b1345b0ff74fcb",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/frontier.schema.json"
+    }
+  },
+  {
+    "name": "hub.schema.json",
+    "path": "spec/schemas/hub.schema.json",
+    "sha": "db7075c44ddac077f9ef589dad893b5f36c53e63",
+    "size": 2045,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/hub.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/hub.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/db7075c44ddac077f9ef589dad893b5f36c53e63",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/hub.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/hub.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/db7075c44ddac077f9ef589dad893b5f36c53e63",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/hub.schema.json"
+    }
+  },
+  {
+    "name": "manifest.schema.json",
+    "path": "spec/schemas/manifest.schema.json",
+    "sha": "4a4b77c1a100319a0b939d82bd849cb0580af480",
+    "size": 9885,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/manifest.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/manifest.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/4a4b77c1a100319a0b939d82bd849cb0580af480",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/manifest.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/manifest.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/4a4b77c1a100319a0b939d82bd849cb0580af480",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/manifest.schema.json"
+    }
+  },
+  {
+    "name": "message.schema.json",
+    "path": "spec/schemas/message.schema.json",
+    "sha": "3a2e7df12ae3ff1668b0faed9ebee99b9c406e70",
+    "size": 3396,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/message.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/message.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/3a2e7df12ae3ff1668b0faed9ebee99b9c406e70",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/message.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/message.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/3a2e7df12ae3ff1668b0faed9ebee99b9c406e70",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/message.schema.json"
+    }
+  },
+  {
+    "name": "package-task.schema.json",
+    "path": "spec/schemas/package-task.schema.json",
+    "sha": "c6208cffdb960aabc1dbf3b2d83eb26349cbc70d",
+    "size": 1725,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/package-task.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/package-task.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/c6208cffdb960aabc1dbf3b2d83eb26349cbc70d",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/package-task.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/package-task.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/c6208cffdb960aabc1dbf3b2d83eb26349cbc70d",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/package-task.schema.json"
+    }
+  },
+  {
+    "name": "registry-entry.schema.json",
+    "path": "spec/schemas/registry-entry.schema.json",
+    "sha": "b975ebc2d335cf9eeb70dcde109e7e37c18bfff8",
+    "size": 5034,
+    "url": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/registry-entry.schema.json?ref=main",
+    "html_url": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/registry-entry.schema.json",
+    "git_url": "https://api.github.com/repos/discoveryathome/discover/git/blobs/b975ebc2d335cf9eeb70dcde109e7e37c18bfff8",
+    "download_url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/registry-entry.schema.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/discoveryathome/discover/contents/spec/schemas/registry-entry.schema.json?ref=main",
+      "git": "https://api.github.com/repos/discoveryathome/discover/git/blobs/b975ebc2d335cf9eeb70dcde109e7e37c18bfff8",
+      "html": "https://github.com/discoveryathome/discover/blob/main/spec/schemas/registry-entry.schema.json"
+    }
+  }
+]

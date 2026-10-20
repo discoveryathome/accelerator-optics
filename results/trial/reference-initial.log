@@ -1,0 +1,15 @@
+/Users/colkitt/discover-work/incubatedPilots/accelerator-optics/start-accelerator-optics/.venv/lib/python3.13/site-packages/xtrack/line.py:3559: FutureWarning: `Line.compute_one_turn_matrix_finite_differences()` is deprecated and will be removed in future versions. Please use `Line.get_R_matrix()` instead. This deprecation is part of the interface cleanup in view of the 1.0 release.
+  warn(
+{
+  "status": "PASS",
+  "reference": "analytic symmetric 60 degree FODO",
+  "peak_beta_m": 6.928203230275512,
+  "tune": [
+    0.6666666666666666,
+    0.6666666666666666
+  ],
+  "chromaticity": [
+    -0.7351051939996632,
+    -0.7351051940107655
+  ]
+}

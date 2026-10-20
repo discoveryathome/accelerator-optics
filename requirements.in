@@ -1,0 +1,6 @@
+xsuite
+numpy
+scipy
+matplotlib
+pytest
+jsonschema

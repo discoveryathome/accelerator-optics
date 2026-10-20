@@ -1,0 +1,19 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Literature reference only: symmetric thin-lens FODO with 4 m cells and k1L=+/-0.5 m^-1 has beta_max=4(1+sin(pi/6))/sin(pi/3)=6.9282032303 m. No optimized local candidate or successful local reproduction is claimed.",
+  "status": "Source-audited reference; numerical reproduction pending execution approval.",
+  "evidence_level": ["author-checked"],
+  "claim_kind": ["model"],
+  "scope": "Analytic uncoupled thin-lens FODO; evidence applies to literature/formula audit only, not the unexecuted code. No global optimum, operational performance or novelty claim.",
+  "metric": {"name": "Analytic reference peak beta", "value": "6.928203230275509", "direction": "lower-is-better", "unit": "m"},
+  "assumptions": [
+    {"id": "local-reproduction", "statement": "NumPy/Xsuite reproduction has not run.", "status": "open", "link": "docs/ASSESSMENT.md"},
+    {"id": "independent-review", "statement": "No different contributor or maintainer has reviewed the implementation.", "status": "open"},
+    {"id": "fidelity", "statement": "Thin lenses and ideal periodic channel do not establish real-machine performance.", "status": "open"}
+  ],
+  "sources": ["https://cds.cern.ch/record/1533020/files/CERN-2013-001-p171.pdf", "https://xsuite.readthedocs.io/en/latest/twiss.html"],
+  "reproduce": ".venv/bin/python -m beamopt.verify --reference",
+  "prerequisites": ["Execution permission if unsandboxed", "Python 3.12/3.13", "Install requirements.in; pin resolved environment before experiments"],
+  "review": "docs/ASSESSMENT.md",
+  "updated_on": "2026-10-20"
+}
