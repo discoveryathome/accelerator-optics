@@ -11,7 +11,7 @@ new acceptance limits require a new version, never silently relax a failing gate
 Keep all scientific outputs and reproducibility logs in this project. Never use
 tracking outcomes to choose nominal candidates without declaring a changed experiment.
 
-Read docs/ASSESSMENT.md for the unfinished execution checklist. Use a supplied seed
+Read docs/ASSESSMENT.md for the completed contributor trial and remaining launch gates. Use a supplied seed
 or the protocol helper's picker for future task selection. Remain honest about the
 difference between independent implementations and independent contributor review.
 Do not promote evidence to independently-checked without a different reviewer.

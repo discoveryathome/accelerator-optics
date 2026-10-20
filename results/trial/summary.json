@@ -1,0 +1,260 @@
+{
+  "nominal_search": [
+    {
+      "method": "random",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 10.380455917096697,
+      "best_peak_beta_m": 7.307172354369401
+    },
+    {
+      "method": "random",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 11.018722833017819,
+      "best_peak_beta_m": 7.224134736516097
+    },
+    {
+      "method": "random",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 14.444265624973923,
+      "best_peak_beta_m": 7.379733408620314
+    },
+    {
+      "method": "slsqp",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 25.460833749966696,
+      "best_peak_beta_m": 6.887804237886206
+    },
+    {
+      "method": "slsqp",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 29.69035970896948,
+      "best_peak_beta_m": 6.885625769031669
+    },
+    {
+      "method": "slsqp",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 26.4268264999846,
+      "best_peak_beta_m": 6.956113335892936
+    }
+  ],
+  "epigraph": [
+    {
+      "family": "nominal",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 27.08497800002806,
+      "best_peak_beta_m": 6.883446143270092,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 6.883446143270237,
+        "elapsed_s": 1.1214669171022251
+      }
+    },
+    {
+      "family": "nominal",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 39.421995750046335,
+      "best_peak_beta_m": 6.883446143270085,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 6.883446143270237,
+        "elapsed_s": 0.9006654160330072
+      }
+    },
+    {
+      "family": "nominal",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 37.920590541907586,
+      "best_peak_beta_m": 6.883446143270078,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 6.883446143270237,
+        "elapsed_s": 2.1467190419789404
+      }
+    },
+    {
+      "family": "longer",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 21.021637665922754,
+      "best_peak_beta_m": 7.131735527180041,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 7.131735527180175,
+        "elapsed_s": 0.8739964999258518
+      }
+    },
+    {
+      "family": "longer",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 25.17411716701463,
+      "best_peak_beta_m": 7.131735527180022,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 7.131735527180175,
+        "elapsed_s": 3.3731315420009196
+      }
+    },
+    {
+      "family": "longer",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 20.222721999976784,
+      "best_peak_beta_m": 7.131735527180019,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 7.131735527180175,
+        "elapsed_s": 0.775912250042893
+      }
+    },
+    {
+      "family": "alternating",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 15.184275125036947,
+      "best_peak_beta_m": 6.882362148498347,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 6.882362148498473,
+        "elapsed_s": 0.5513036249903962
+      }
+    },
+    {
+      "family": "alternating",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 21.010734708979726,
+      "best_peak_beta_m": 6.882362148498321,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 6.882362148498473,
+        "elapsed_s": 0.49763616698328406
+      }
+    },
+    {
+      "family": "alternating",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 26.429653249913827,
+      "best_peak_beta_m": 6.882362148498307,
+      "first_solver": {
+        "evaluations": 45,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 6.882362148498473,
+        "elapsed_s": 0.6273732499685138
+      }
+    },
+    {
+      "family": "irregular",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 19.475101541960612,
+      "best_peak_beta_m": 7.285910271765169,
+      "first_solver": {
+        "evaluations": 94,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 7.285910271765254,
+        "elapsed_s": 1.8684907919960096
+      }
+    },
+    {
+      "family": "irregular",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 14.645632166066207,
+      "best_peak_beta_m": 7.285910271765209,
+      "first_solver": {
+        "evaluations": 94,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 7.285910271765254,
+        "elapsed_s": 1.3851992080453783
+      }
+    },
+    {
+      "family": "irregular",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 15.927095083054155,
+      "best_peak_beta_m": 7.285910271765214,
+      "first_solver": {
+        "evaluations": 94,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 7.285910271765254,
+        "elapsed_s": 1.2138295830227435
+      }
+    },
+    {
+      "family": "injection",
+      "seed": 7,
+      "evaluations": 1200,
+      "elapsed_s": 18.33275349996984,
+      "best_peak_beta_m": 9.210605293397672,
+      "first_solver": {
+        "evaluations": 94,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 9.210605293583765,
+        "elapsed_s": 3.226909750024788
+      }
+    },
+    {
+      "family": "injection",
+      "seed": 19,
+      "evaluations": 1200,
+      "elapsed_s": 20.840552625013515,
+      "best_peak_beta_m": 9.210605293002661,
+      "first_solver": {
+        "evaluations": 94,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 9.210605293583765,
+        "elapsed_s": 1.193816207931377
+      }
+    },
+    {
+      "family": "injection",
+      "seed": 41,
+      "evaluations": 1200,
+      "elapsed_s": 26.397651875042357,
+      "best_peak_beta_m": 9.21060529061238,
+      "first_solver": {
+        "evaluations": 94,
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "peak_beta_m": 9.210605293583765,
+        "elapsed_s": 1.2969838749850169
+      }
+    }
+  ],
+  "protocol_status": "Local proposal; upstream manifest requires a consenting maintainer. Empty list is intentional.",
+  "recommendation": "Onboarding/demo pilot; not a flagship discovery project until expert-approved realistic benchmark and repeated independently reviewed contributions."
+}

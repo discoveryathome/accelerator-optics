@@ -1,0 +1,1154 @@
+[
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026870786805525907,
+      0.0015598580635350762
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0042901125411655e-06,
+      1.0127485073586583e-06
+    ],
+    "emittance_ratio": [
+      0.9998448515400995,
+      0.9997443112837417
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0027120925538217295,
+      0.0015547507547091588
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0340166178426303e-06,
+      1.011756209096947e-06
+    ],
+    "emittance_ratio": [
+      0.9994753395900402,
+      1.0004251043974242
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026610808354449,
+      0.0015750578019122525
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.92196708778932e-07,
+      1.029122535068467e-06
+    ],
+    "emittance_ratio": [
+      1.00028715950203,
+      1.0001084579599466
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.002847530392563545,
+      0.0016199909556185923
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0097274691112915e-06,
+      1.020184147347893e-06
+    ],
+    "emittance_ratio": [
+      1.0052581408921892,
+      1.0070844739460192
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.002891473416068026,
+      0.0016425259315582198
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0399083292327316e-06,
+      1.0215600247261126e-06
+    ],
+    "emittance_ratio": [
+      1.005170238628195,
+      1.0101191227648085
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0028204812578638363,
+      0.001629097862276242
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.969638419227888e-07,
+      1.0348484191335648e-06
+    ],
+    "emittance_ratio": [
+      1.0050931642279526,
+      1.005672912033845
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026846687248160035,
+      0.0015418975851171693
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0047617431812449e-06,
+      1.0142262797406336e-06
+    ],
+    "emittance_ratio": [
+      1.0003143946147781,
+      1.0012031083311008
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.002710275698768796,
+      0.001543076900954808
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0346538510633911e-06,
+      1.0126770573922059e-06
+    ],
+    "emittance_ratio": [
+      1.000091286063944,
+      1.0013356397058664
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026528521912607527,
+      0.0015526728751588358
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.925713620838776e-07,
+      1.029257292000316e-06
+    ],
+    "emittance_ratio": [
+      1.0006648677597636,
+      1.00023941568628
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026854845069652863,
+      0.0015417990078054682
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0047562253753898e-06,
+      1.0142641021836708e-06
+    ],
+    "emittance_ratio": [
+      1.0003089012322315,
+      1.0012404451151005
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0027107137555237603,
+      0.0015427406169251834
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0346506230171763e-06,
+      1.0127359916686455e-06
+    ],
+    "emittance_ratio": [
+      1.0000881658504666,
+      1.0013939139513117
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026525723131798845,
+      0.001553030234166464
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.925633578649674e-07,
+      1.0292384672309517e-06
+    ],
+    "emittance_ratio": [
+      1.000656798273817,
+      1.0002211216441041
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.02,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026870786805525907,
+      0.0015598580635350762
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0042901125411655e-06,
+      1.0127485073586583e-06
+    ],
+    "emittance_ratio": [
+      0.9998448515400995,
+      0.9997443112837417
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0027120925538217295,
+      0.0015547507547091588
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0340166178426303e-06,
+      1.011756209096947e-06
+    ],
+    "emittance_ratio": [
+      0.9994753395900402,
+      1.0004251043974242
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026610808354449,
+      0.0015750578019122525
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.92196708778932e-07,
+      1.029122535068467e-06
+    ],
+    "emittance_ratio": [
+      1.00028715950203,
+      1.0001084579599466
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.002847530392563545,
+      0.0016199909556185923
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0097274691112915e-06,
+      1.020184147347893e-06
+    ],
+    "emittance_ratio": [
+      1.0052581408921892,
+      1.0070844739460192
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.999267578125,
+    "max_rms_at_period_start_m": [
+      0.0028759543976204322,
+      0.001642796144874473
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0333613189411768e-06,
+      1.0216094200253658e-06
+    ],
+    "emittance_ratio": [
+      0.9988419309186887,
+      1.0101679648642865
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0028204812578638363,
+      0.001629097862276242
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.969638419227888e-07,
+      1.0348484191335648e-06
+    ],
+    "emittance_ratio": [
+      1.0050931642279526,
+      1.005672912033845
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026846687248160035,
+      0.0015418975851171693
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0047617431812449e-06,
+      1.0142262797406336e-06
+    ],
+    "emittance_ratio": [
+      1.0003143946147781,
+      1.0012031083311008
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.002710275698768796,
+      0.001543076900954808
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0346538510633911e-06,
+      1.0126770573922059e-06
+    ],
+    "emittance_ratio": [
+      1.000091286063944,
+      1.0013356397058664
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026528521912607527,
+      0.0015526728751588358
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.925713620838776e-07,
+      1.029257292000316e-06
+    ],
+    "emittance_ratio": [
+      1.0006648677597636,
+      1.00023941568628
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026854845069652863,
+      0.0015417990078054682
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      1.0047562253753898e-06,
+      1.0142641021836708e-06
+    ],
+    "emittance_ratio": [
+      1.0003089012322315,
+      1.0012404451151005
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0027107137555237603,
+      0.0015427406169251834
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      1.0346506230171763e-06,
+      1.0127359916686455e-06
+    ],
+    "emittance_ratio": [
+      1.0000881658504666,
+      1.0013939139513117
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 1.0,
+    "max_rms_at_period_start_m": [
+      0.0026525723131798845,
+      0.001553030234166464
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.925633578649674e-07,
+      1.0292384672309517e-06
+    ],
+    "emittance_ratio": [
+      1.000656798273817,
+      1.0002211216441041
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.012,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.977783203125,
+    "max_rms_at_period_start_m": [
+      0.0026133337805586067,
+      0.0015214559009412887
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      9.516217101238823e-07,
+      9.648047278304567e-07
+    ],
+    "emittance_ratio": [
+      0.9474095737870246,
+      0.9524161538028967
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.9775390625,
+    "max_rms_at_period_start_m": [
+      0.002645499016759666,
+      0.0015208038522971962
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      9.753444243177672e-07,
+      9.668450464627948e-07
+    ],
+    "emittance_ratio": [
+      0.9427630880305784,
+      0.9560169217118102
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.977294921875,
+    "max_rms_at_period_start_m": [
+      0.0025971048497238185,
+      0.0015288115281544767
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.495756305964312e-07,
+      9.653742089520205e-07
+    ],
+    "emittance_ratio": [
+      0.9573185456648047,
+      0.938157389979878
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.96435546875,
+    "max_rms_at_period_start_m": [
+      0.0027212889191339947,
+      0.0015537708200127473
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      9.334928488383632e-07,
+      9.450502268790949e-07
+    ],
+    "emittance_ratio": [
+      0.9293609557689239,
+      0.9329153104988847
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.965576171875,
+    "max_rms_at_period_start_m": [
+      0.00274062696766212,
+      0.0015817370662260786
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      9.559508524424344e-07,
+      9.55500558410072e-07
+    ],
+    "emittance_ratio": [
+      0.9240173575447342,
+      0.9447994855918872
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.967041015625,
+    "max_rms_at_period_start_m": [
+      0.0027229028796784353,
+      0.0015569966680280792
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.388273891916386e-07,
+      9.502265089968069e-07
+    ],
+    "emittance_ratio": [
+      0.9464826622464113,
+      0.9234367495045037
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.9775390625,
+    "max_rms_at_period_start_m": [
+      0.0026064512388985378,
+      0.0015075185836479067
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      9.531679516378692e-07,
+      9.635282806679376e-07
+    ],
+    "emittance_ratio": [
+      0.948948971215807,
+      0.9511560968587389
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.977294921875,
+    "max_rms_at_period_start_m": [
+      0.0026394513474875697,
+      0.0015010743721951911
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      9.748340230120707e-07,
+      9.673132157868587e-07
+    ],
+    "emittance_ratio": [
+      0.942269736657365,
+      0.9564798478008137
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.978515625,
+    "max_rms_at_period_start_m": [
+      0.002598317233897996,
+      0.0015078203457900361
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.525657896219314e-07,
+      9.67174198002382e-07
+    ],
+    "emittance_ratio": [
+      0.960333086684355,
+      0.9399066318943815
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.9775390625,
+    "max_rms_at_period_start_m": [
+      0.002606745738339555,
+      0.00150744922567863
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      9.53161546775237e-07,
+      9.635732985086817e-07
+    ],
+    "emittance_ratio": [
+      0.9489425947028377,
+      0.9512005366479492
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.977294921875,
+    "max_rms_at_period_start_m": [
+      0.002638915595486843,
+      0.001500808271226752
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      9.748360457659657e-07,
+      9.67368734084968e-07
+    ],
+    "emittance_ratio": [
+      0.9422716918412578,
+      0.9565347443249789
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.978515625,
+    "max_rms_at_period_start_m": [
+      0.0025970584561223597,
+      0.0015068113256960722
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      9.525584098080124e-07,
+      9.671526345162854e-07
+    ],
+    "emittance_ratio": [
+      0.9603256466948474,
+      0.9398856763481822
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.008,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.85400390625,
+    "max_rms_at_period_start_m": [
+      0.002363814426869808,
+      0.0013950187537903995
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      7.86143112537564e-07,
+      8.044448444310231e-07
+    ],
+    "emittance_ratio": [
+      0.7826634294501965,
+      0.7941153713067226
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.85205078125,
+    "max_rms_at_period_start_m": [
+      0.0024132580258398716,
+      0.0013769107264371262
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      8.074939013209954e-07,
+      7.941836090336545e-07
+    ],
+    "emittance_ratio": [
+      0.7805196041467474,
+      0.7852891959886015
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.851806640625,
+    "max_rms_at_period_start_m": [
+      0.0023783247787563036,
+      0.0013802401997555346
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      7.943082404963687e-07,
+      7.929007159415964e-07
+    ],
+    "emittance_ratio": [
+      0.8007850929408755,
+      0.7705464464277137
+    ],
+    "configuration": "reference",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.81103515625,
+    "max_rms_at_period_start_m": [
+      0.0024212618998777514,
+      0.0013829329928446495
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      7.551159466021338e-07,
+      7.622199997195201e-07
+    ],
+    "emittance_ratio": [
+      0.7517735981842846,
+      0.7524327146664649
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.802001953125,
+    "max_rms_at_period_start_m": [
+      0.0023972890113123737,
+      0.0013738694835378322
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      7.565463919348178e-07,
+      7.469416728762814e-07
+    ],
+    "emittance_ratio": [
+      0.7312739940024369,
+      0.7385763431420046
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.8076171875,
+    "max_rms_at_period_start_m": [
+      0.0024211232317117495,
+      0.0013734250403744852
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      7.568097455778718e-07,
+      7.472548326119636e-07
+    ],
+    "emittance_ratio": [
+      0.7629808323182151,
+      0.7261874586168197
+    ],
+    "configuration": "baseline",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.8544921875,
+    "max_rms_at_period_start_m": [
+      0.0023585536897420527,
+      0.001376635660138978
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      7.876813562811867e-07,
+      8.084657791790537e-07
+    ],
+    "emittance_ratio": [
+      0.78419486450892,
+      0.7980846752466227
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.85498046875,
+    "max_rms_at_period_start_m": [
+      0.00240532287527382,
+      0.0013612923144630167
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      8.083548702696312e-07,
+      7.995691527521569e-07
+    ],
+    "emittance_ratio": [
+      0.7813518124666771,
+      0.7906144246240933
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.850341796875,
+    "max_rms_at_period_start_m": [
+      0.0023670235902578055,
+      0.0013593786471433878
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      7.903680945617784e-07,
+      7.933453912390568e-07
+    ],
+    "emittance_ratio": [
+      0.7968128187435691,
+      0.7709785849835045
+    ],
+    "configuration": "search",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 401,
+    "scenario": "common_injection",
+    "survival": 0.8544921875,
+    "max_rms_at_period_start_m": [
+      0.0023586991030288126,
+      0.0013765919360145676
+    ],
+    "initial_emittance_m": [
+      1.004445950783483e-06,
+      1.013007521951506e-06
+    ],
+    "final_emittance_m": [
+      7.876678446230276e-07,
+      8.084956583729134e-07
+    ],
+    "emittance_ratio": [
+      0.7841814126570323,
+      0.7981141707767272
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 503,
+    "scenario": "common_injection",
+    "survival": 0.85498046875,
+    "max_rms_at_period_start_m": [
+      0.0024059560902795463,
+      0.0013608247234882982
+    ],
+    "initial_emittance_m": [
+      1.0345594102069172e-06,
+      1.0113262898439037e-06
+    ],
+    "final_emittance_m": [
+      8.083523765511233e-07,
+      7.996062649718976e-07
+    ],
+    "emittance_ratio": [
+      0.7813494020507229,
+      0.7906511212076918
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  },
+  {
+    "seed": 607,
+    "scenario": "common_injection",
+    "survival": 0.850341796875,
+    "max_rms_at_period_start_m": [
+      0.0023669862313041475,
+      0.001359766396583002
+    ],
+    "initial_emittance_m": [
+      9.919118718597513e-07,
+      1.0290109306421669e-06
+    ],
+    "final_emittance_m": [
+      7.903669546906018e-07,
+      7.933359981589408e-07
+    ],
+    "emittance_ratio": [
+      0.7968116695777925,
+      0.7709694567227287
+    ],
+    "configuration": "analytic",
+    "aperture_half_width_m": 0.006,
+    "particles": 4096
+  }
+]

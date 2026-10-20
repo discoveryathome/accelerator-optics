@@ -1,19 +1,197 @@
 {
   "schema": "discover-frontier/v0",
-  "statement": "Literature reference only: symmetric thin-lens FODO with 4 m cells and k1L=+/-0.5 m^-1 has beta_max=4(1+sin(pi/6))/sin(pi/3)=6.9282032303 m. No optimized local candidate or successful local reproduction is claimed.",
-  "status": "Source-audited reference; numerical reproduction pending execution approval.",
-  "evidence_level": ["author-checked"],
-  "claim_kind": ["model"],
-  "scope": "Analytic uncoupled thin-lens FODO; evidence applies to literature/formula audit only, not the unexecuted code. No global optimum, operational performance or novelty claim.",
-  "metric": {"name": "Analytic reference peak beta", "value": "6.928203230275509", "direction": "lower-is-better", "unit": "m"},
-  "assumptions": [
-    {"id": "local-reproduction", "statement": "NumPy/Xsuite reproduction has not run.", "status": "open", "link": "docs/ASSESSMENT.md"},
-    {"id": "independent-review", "statement": "No different contributor or maintainer has reviewed the implementation.", "status": "open"},
-    {"id": "fidelity", "statement": "Thin lenses and ideal periodic channel do not establish real-machine performance.", "status": "open"}
+  "statement": "Five retained feasible configurations cross-checked in Xsuite and independent thin-lens matrices. Nominal symmetric control peak beta is 6.8834461461 m; the fixed-injection irregular witness has 9.2106052934 m versus its 10.8226487083 m uniform-strength reference. These are local model witnesses, not global optima or real-machine improvements.",
+  "status": "Author-checked local proposal; independent scientific review and maintainer consent pending.",
+  "evidence_level": [
+    "author-checked"
   ],
-  "sources": ["https://cds.cern.ch/record/1533020/files/CERN-2013-001-p171.pdf", "https://xsuite.readthedocs.io/en/latest/twiss.html"],
-  "reproduce": ".venv/bin/python -m beamopt.verify --reference",
-  "prerequisites": ["Execution permission if unsandboxed", "Python 3.12/3.13", "Install requirements.in; pin resolved environment before experiments"],
+  "claim_kind": [
+    "model"
+  ],
+  "scope": "Pinned uncoupled thin-lens periodic channels. Each case has a distinct fixed specification; scores across cases are not interchangeable. Tracking is a limited stress test, not part of an operational claim.",
+  "metric": {
+    "name": "Nominal peak beta",
+    "value": "6.88344614609848",
+    "direction": "lower-is-better",
+    "unit": "m"
+  },
+  "table": {
+    "path": "results/frontier-cases.json",
+    "key": [
+      "case"
+    ],
+    "value": "peak_beta_m",
+    "direction": "lower-is-better",
+    "object": "candidate",
+    "check_row": [
+      ".venv/bin/python",
+      "-m",
+      "beamopt.verify",
+      "{candidate}",
+      "--spec",
+      "{spec}"
+    ],
+    "check_row_minutes": 1,
+    "by": "by",
+    "source": "source",
+    "updated": "updated"
+  },
+  "assumptions": [
+    {
+      "id": "review",
+      "statement": "No independent contributor or consenting maintainer has reviewed these claims.",
+      "status": "open"
+    },
+    {
+      "id": "fidelity",
+      "statement": "No calibrated real-machine model, space charge, RF or validated error ensemble.",
+      "status": "open"
+    },
+    {
+      "id": "optimality",
+      "statement": "No global-optimality certificate for the general eight-variable problems.",
+      "status": "open"
+    }
+  ],
+  "sources": [
+    "https://cds.cern.ch/record/1533020/files/CERN-2013-001-p171.pdf",
+    "https://xsuite.readthedocs.io/en/latest/twiss.html",
+    "docs/ASSESSMENT.md"
+  ],
+  "artifacts": [
+    {
+      "path": "beamopt/__init__.py",
+      "sha256": "03db87698ea53ff221aaf1b03f9be740aa119447bce74937af7cb2664ccd69da"
+    },
+    {
+      "path": "beamopt/controls.py",
+      "sha256": "1095de07d8af7847a8c17947dc2381d5f00ec15d2c7674a8b32f2e0c69cd6211"
+    },
+    {
+      "path": "beamopt/demo.py",
+      "sha256": "8386be29424cc40f14350779e5dbf76872e80eb2fe9e90c5503d7e6df790f84c"
+    },
+    {
+      "path": "beamopt/epigraph.py",
+      "sha256": "3d09c85536b684e44982c6117af35c9b9c5e1bbd2d06b1f964f16b9acb40e5f9"
+    },
+    {
+      "path": "beamopt/experiments.py",
+      "sha256": "4a25253fb7e6575a0c3f026f76d2c99dc76a0e78cc286abb5b2b8465474a89d5"
+    },
+    {
+      "path": "beamopt/injection_study.py",
+      "sha256": "00ab6c5a370ad87ab2bc0191c462ac30a9fac92d8da17ab7dfd05b5f0ce15f6b"
+    },
+    {
+      "path": "beamopt/matrix.py",
+      "sha256": "d407b8404e241dcda9e8413b0f8265a906825aa7f085c6fdda826e93f7dc9481"
+    },
+    {
+      "path": "beamopt/plots.py",
+      "sha256": "ff8096e394d65fbf9517cc5c370271b6d9be5dbb71c9f2751cce38300716eb92"
+    },
+    {
+      "path": "beamopt/records.py",
+      "sha256": "184d9eaca352e0e95dc92571a3888b7470c5ca76da73139db84ff215998e1e6a"
+    },
+    {
+      "path": "beamopt/reproduce.py",
+      "sha256": "e7f3acc60d8cdce04c08b959609a701b8670912127d352381b20a82877204749"
+    },
+    {
+      "path": "beamopt/search.py",
+      "sha256": "d5ff8843b72b08f718dcd1a5a32373a5d8f0e960898046335336c79e39204c74"
+    },
+    {
+      "path": "beamopt/stress.py",
+      "sha256": "400efea0d3bcb28b65503ef2689dccad7253c1df5495512eff9c8fb297a9f443"
+    },
+    {
+      "path": "beamopt/trial_audit.py",
+      "sha256": "8304aabc92d25941d273bd4a3f7e090d076669a9aacf76da3c2bcbb9ff775e93"
+    },
+    {
+      "path": "beamopt/trial_plots.py",
+      "sha256": "80fcd66af4ac33e1eea162cb3d22844d76caf8af9abeb322ea8a6f5546709a73"
+    },
+    {
+      "path": "beamopt/verify.py",
+      "sha256": "483c7389f4be3689f41488004e04835d4b2449d188c4e69788cd35bce0b64066"
+    },
+    {
+      "path": "beamopt/xsuite_backend.py",
+      "sha256": "f5dab74b1e2f4d8c06e76a3f80fb351dceb4b90c0b3ff01535a0dfd53f098409"
+    },
+    {
+      "path": "configs/nominal.json",
+      "sha256": "479bf294d4645f52049114e3cf1bc0b097941340b40c087d2c47f2fe088937a1"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "50152d2e9efb42ab595ed77864d9e7fbd71e9c1b00fba41bfeb42016de0387d4"
+    },
+    {
+      "path": "results/alternating-spec.json",
+      "sha256": "4a6b178fe368454b19fcd1ff9acbc5484c7a9f802b72a30acbf32139c6e487b8"
+    },
+    {
+      "path": "results/analytic-candidate.json",
+      "sha256": "964a1ada09ff8ec1bf34909c946cb20cd82eca98ad59cb9d3285f67c699584fe"
+    },
+    {
+      "path": "results/frontier-cases.json",
+      "sha256": "40d05342d0603856e6e8be40ac6023268229cc00e0f0d9cdc3c8f4bd01e9663b"
+    },
+    {
+      "path": "results/injection-spec.json",
+      "sha256": "f61c78b9176102d8cf9b83101e27f761b7609bba114e1a368e1264503d409e4c"
+    },
+    {
+      "path": "results/irregular-spec.json",
+      "sha256": "6b449f1cf5fc353b491abc77e3cdf8c7c49c8bb626df03382afbbee0df29bdae"
+    },
+    {
+      "path": "results/longer-spec.json",
+      "sha256": "1806e4733dba6ab629433bf2364ddb7c31c39f7bc058ccc45e32dcfc2857f0ce"
+    },
+    {
+      "path": "results/trial/epigraph-alternating-7.json",
+      "sha256": "4b882d1f2d03a2769c51b077a965f6372d484747564a777c15f0a58e6457a074"
+    },
+    {
+      "path": "results/trial/epigraph-injection-7.json",
+      "sha256": "73fc16a2e240bb5e6f2c8b789d3567a7a2dbb825f77409de66c78201e1b21793"
+    },
+    {
+      "path": "results/trial/epigraph-irregular-7.json",
+      "sha256": "e69738df1d31e232720c84af169c896c9355118b9d902cb251f46b1cc337f9b2"
+    },
+    {
+      "path": "results/trial/epigraph-longer-7.json",
+      "sha256": "2d52d8d16cb61d3a6899eae1a57794aa2050e1734953165382668e959db8381d"
+    },
+    {
+      "path": "run.sh",
+      "sha256": "2b2746d24677fc078d0c46fdef3a0b0fe0e999216b96619e4043c6d193dcbb92"
+    },
+    {
+      "path": "tests/test_tracking_integrity.py",
+      "sha256": "92937d18e0e573b4362fa135b866ac90331ffa3fa6bc5a3633b3f9cd5705c725"
+    },
+    {
+      "path": "tests/test_verifier.py",
+      "sha256": "49c5f572cad2c347d1a6c81ec756c411f7eb89383178fa6ff2333bdcd812941b"
+    }
+  ],
+  "reproduce": ".venv/bin/python -m beamopt.reproduce",
+  "reproduce_full": "bash run.sh",
+  "reproduce_minutes": 3,
+  "prerequisites": [
+    "Python 3.13",
+    "Install requirements.lock in .venv",
+    "CPU-only Xsuite; GPU not required"
+  ],
   "review": "docs/ASSESSMENT.md",
   "updated_on": "2026-10-20"
 }

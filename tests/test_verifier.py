@@ -50,3 +50,27 @@ def test_aperture_gate():
 
 def test_reference_xsuite():
     assert reference(SPEC,True)['status']=='PASS'
+
+
+def test_a_smaller_envelope_does_not_imply_preserved_reference_optics():
+    # Closed-form stronger FODO has lower beta but shifts tunes/chromaticity.
+    spec=json.loads(SPEC.read_text())
+    k=[.51,-.51]*4
+    reference_ev=matrix.evaluate(spec['reference_strengths_m_inv'],spec)
+    candidate_ev=matrix.evaluate(k,spec)
+    assert candidate_ev['objective']<reference_ev['objective']
+    assert matrix.feasible(k,spec)
+    strict=copy.deepcopy(spec)
+    strict['constraints']['tune_tolerance']=1e-6
+    strict['constraints']['chromaticity_abs_max']=(np.abs(reference_ev['chromaticity'])+1e-6).tolist()
+    assert not matrix.feasible(k,strict)
+
+
+def test_entrance_matching_is_an_independent_acceptance_gate():
+    spec=json.loads(SPEC.read_text())
+    ev=matrix.evaluate(spec['reference_strengths_m_inv'],spec)
+    spec['constraints']['entrance_twiss_target']=np.r_[ev['beta'][0],ev['alpha'][0]].tolist()
+    spec['constraints']['entrance_twiss_tolerance']=[1e-5]*4
+    assert matrix.feasible(spec['reference_strengths_m_inv'],spec)
+    # Previously acceptable focusing change now mismatches the fixed incoming beam.
+    assert not matrix.feasible([.51,-.51]*4,spec)

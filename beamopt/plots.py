@@ -2,6 +2,8 @@
 import argparse
 import json
 from pathlib import Path
+import os
+os.environ.setdefault("MPL_IGNORE_SYSTEM_FONTS", "1")
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -26,6 +28,8 @@ def main():
     args=p.parse_args();out=Path(args.out);spec=json.loads(Path(args.spec).read_text())
     k=json.loads((out/'candidate.json').read_text())['strengths_m_inv']
     configs={'Reference':spec['reference_strengths_m_inv'],'Perturbed baseline':spec['baseline_strengths_m_inv'],'Candidate':k}
+    analytic=out/'analytic-candidate.json'
+    if analytic.exists(): configs['Symmetry control']=json.loads(analytic.read_text())['strengths_m_inv']
     fig,axs=plt.subplots(2,2,figsize=(12,7),sharex=True,layout='constrained')
     for name,kk in configs.items():
         s,b=dense_envelope(kk,spec)
@@ -42,7 +46,9 @@ def main():
     for ext in ['png','svg']:fig.savefig(out/f'optics-envelope.{ext}',dpi=160)
     plt.close(fig)
     runs=json.loads((out/'search.json').read_text());fig,ax=plt.subplots(figsize=(8,4.8),layout='constrained')
-    colors={'random':'#b96928','slsqp':'#176f9a'}
+    extra=out/'trial'/'epigraph-search.json'
+    if extra.exists():runs += [r for r in json.loads(extra.read_text()) if r['family']=='nominal']
+    colors={'random':'#b96928','slsqp':'#176f9a','epigraph-slsqp':'#268445'}
     for run in runs:
         h=run['history'];ax.plot([r['evaluation'] for r in h],[np.nan if r['incumbent'] is None else r['incumbent'] for r in h],
                                color=colors[run['method']],alpha=.7,label=f'{run["method"]}, seed {run["seed"]}')

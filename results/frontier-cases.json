@@ -1,0 +1,47 @@
+[
+  {
+    "case": "nominal",
+    "peak_beta_m": 6.88344614609848,
+    "candidate": "results/analytic-candidate.json",
+    "spec": "configs/nominal.json",
+    "by": "Codex trial author; independent review pending",
+    "source": "results/analytic-candidate.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "case": "longer",
+    "peak_beta_m": 7.131735527180041,
+    "candidate": "results/trial/epigraph-longer-7.json",
+    "spec": "results/longer-spec.json",
+    "by": "Codex trial author; independent review pending",
+    "source": "results/trial/epigraph-longer-7.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "case": "alternating",
+    "peak_beta_m": 6.882362148498347,
+    "candidate": "results/trial/epigraph-alternating-7.json",
+    "spec": "results/alternating-spec.json",
+    "by": "Codex trial author; independent review pending",
+    "source": "results/trial/epigraph-alternating-7.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "case": "irregular",
+    "peak_beta_m": 7.285910271765169,
+    "candidate": "results/trial/epigraph-irregular-7.json",
+    "spec": "results/irregular-spec.json",
+    "by": "Codex trial author; independent review pending",
+    "source": "results/trial/epigraph-irregular-7.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "case": "injection",
+    "peak_beta_m": 9.210605293397672,
+    "candidate": "results/trial/epigraph-injection-7.json",
+    "spec": "results/injection-spec.json",
+    "by": "Codex trial author; independent review pending",
+    "source": "results/trial/epigraph-injection-7.json",
+    "updated": "2026-10-20"
+  }
+]

@@ -1,0 +1,6 @@
+random seed=7: beta=7.30717235, n=1200, seconds=10.38
+random seed=19: beta=7.22413474, n=1200, seconds=11.02
+random seed=41: beta=7.37973341, n=1200, seconds=14.44
+slsqp seed=7: beta=6.88780424, n=1200, seconds=25.46
+slsqp seed=19: beta=6.88562577, n=1200, seconds=29.69
+slsqp seed=41: beta=6.95611334, n=1200, seconds=26.43

@@ -1,0 +1,86 @@
+{
+  "id": "longer",
+  "model": "thin-lens-four-cell-fodo-v1",
+  "drifts_m": [
+    2.1,
+    2.1,
+    2.1,
+    2.1,
+    2.1,
+    2.1,
+    2.1,
+    2.1
+  ],
+  "reference_strengths_m_inv": [
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5
+  ],
+  "baseline_strengths_m_inv": [
+    0.515,
+    -0.485,
+    0.485,
+    -0.515,
+    0.51,
+    -0.49,
+    0.49,
+    -0.51
+  ],
+  "p0c_eV": 1000000000,
+  "geometric_emittance_m": 1e-06,
+  "chromaticity_step": 1e-05,
+  "momentum_grid": [
+    -0.02,
+    -0.01,
+    0,
+    0.01,
+    0.02
+  ],
+  "constraints": {
+    "abs_k_min": 0.35,
+    "abs_k_max": 0.65,
+    "tune_target": [
+      0.7037387389675923,
+      0.7037387389675921
+    ],
+    "tune_tolerance": 0.015,
+    "chromaticity_abs_max": [
+      0.824663920810098,
+      0.824663920810098
+    ],
+    "beta_max_each_m": [
+      9,
+      9
+    ],
+    "offmomentum_beta_max_each_m": [
+      10,
+      10
+    ],
+    "max_abs_trace": 1.9,
+    "aperture_radius_m": 0.02,
+    "envelope_nsigma": 6
+  },
+  "search": {
+    "seeds": [
+      7,
+      19,
+      41
+    ],
+    "evaluation_budget": 1200
+  },
+  "tracking": {
+    "particles": 1024,
+    "periods": 256,
+    "seeds": [
+      103,
+      211,
+      307
+    ],
+    "sigma_delta": 0.005
+  }
+}

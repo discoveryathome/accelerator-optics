@@ -1,0 +1,74 @@
+[
+  {
+    "configuration": "reference",
+    "quadrupole_length_m": 0.2,
+    "period_length_m": 16.0,
+    "tune": [
+      0.6418422570143827,
+      0.6418422570143829
+    ],
+    "chromaticity": [
+      -0.7022982225539292,
+      -0.7022982225539292
+    ],
+    "endpoint_peak_beta_m": [
+      6.785056418755398,
+      6.785056418755398
+    ],
+    "note": "Element endpoints only; not a certified peak inside thick quadrupoles."
+  },
+  {
+    "configuration": "baseline",
+    "quadrupole_length_m": 0.2,
+    "period_length_m": 16.0,
+    "tune": [
+      0.6427964816856448,
+      0.6427964816856448
+    ],
+    "chromaticity": [
+      -0.7062727874533479,
+      -0.7062727874422456
+    ],
+    "endpoint_peak_beta_m": [
+      7.4841952931628075,
+      7.4841952931627995
+    ],
+    "note": "Element endpoints only; not a certified peak inside thick quadrupoles."
+  },
+  {
+    "configuration": "search",
+    "quadrupole_length_m": 0.2,
+    "period_length_m": 16.0,
+    "tune": [
+      0.6561034129590422,
+      0.6560511797983002
+    ],
+    "chromaticity": [
+      -0.7209841458070693,
+      -0.7209683088642012
+    ],
+    "endpoint_peak_beta_m": [
+      6.7337610202750495,
+      6.733877225647617
+    ],
+    "note": "Element endpoints only; not a certified peak inside thick quadrupoles."
+  },
+  {
+    "configuration": "analytic",
+    "quadrupole_length_m": 0.2,
+    "period_length_m": 16.0,
+    "tune": [
+      0.6561684722301016,
+      0.6561684722301018
+    ],
+    "chromaticity": [
+      -0.7210965393015805,
+      -0.7210965393015805
+    ],
+    "endpoint_peak_beta_m": [
+      6.731559454412506,
+      6.731559454412501
+    ],
+    "note": "Element endpoints only; not a certified peak inside thick quadrupoles."
+  }
+]

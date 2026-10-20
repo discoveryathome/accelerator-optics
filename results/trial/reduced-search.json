@@ -1,0 +1,1013 @@
+{
+  "seed": 7,
+  "method": "two-family-slsqp",
+  "evaluations": 248,
+  "elapsed_s": 5.747460833052173,
+  "success": true,
+  "best_strengths": [
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5
+  ],
+  "best_peak_beta_m": 6.928203230275512,
+  "history": [
+    {
+      "evaluations": 1,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 2,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 3,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 4,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 5,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 6,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 7,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 8,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 9,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 10,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 11,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 12,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 13,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 14,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 15,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 16,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 17,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 18,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 19,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 20,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 21,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 22,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 23,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 24,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 25,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 26,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 27,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 28,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 29,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 30,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 31,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 32,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 33,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 34,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 35,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 36,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 37,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 38,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 39,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 40,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 41,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 42,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 43,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 44,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 45,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 46,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 47,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 48,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 49,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 50,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 51,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 52,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 53,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 54,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 55,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 56,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 57,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 58,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 59,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 60,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 61,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 62,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 63,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 64,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 65,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 66,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 67,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 68,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 69,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 70,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 71,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 72,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 73,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 74,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 75,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 76,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 77,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 78,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 79,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 80,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 81,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 82,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 83,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 84,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 85,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 86,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 87,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 88,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 89,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 90,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 91,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 92,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 93,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 94,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 95,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 96,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 97,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 98,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 99,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 100,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 101,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 102,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 103,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 104,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 105,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 106,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 107,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 108,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 109,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 110,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 111,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 112,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 113,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 114,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 115,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 116,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 117,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 118,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 119,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 120,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 121,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 122,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 123,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 124,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 125,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 126,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 127,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 128,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 129,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 130,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 131,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 132,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 133,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 134,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 135,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 136,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 137,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 138,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 139,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 140,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 141,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 142,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 143,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 144,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 145,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 146,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 147,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 148,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 149,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 150,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 151,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 152,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 153,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 154,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 155,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 156,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 157,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 158,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 159,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 160,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 161,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 162,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 163,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 164,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 165,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 166,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 167,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 168,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 169,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 170,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 171,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 172,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 173,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 174,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 175,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 176,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 177,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 178,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 179,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 180,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 181,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 182,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 183,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 184,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 185,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 186,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 187,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 188,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 189,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 190,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 191,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 192,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 193,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 194,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 195,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 196,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 197,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 198,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 199,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 200,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 201,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 202,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 203,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 204,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 205,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 206,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 207,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 208,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 209,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 210,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 211,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 212,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 213,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 214,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 215,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 216,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 217,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 218,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 219,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 220,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 221,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 222,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 223,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 224,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 225,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 226,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 227,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 228,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 229,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 230,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 231,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 232,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 233,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 234,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 235,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 236,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 237,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 238,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 239,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 240,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 241,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 242,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 243,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 244,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 245,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 246,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 247,
+      "incumbent": 6.928203230275512
+    },
+    {
+      "evaluations": 248,
+      "incumbent": 6.928203230275512
+    }
+  ],
+  "note": "Stops at solver convergence; seed does not alter deterministic family-mean start."
+}

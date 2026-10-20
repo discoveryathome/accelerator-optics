@@ -1,0 +1,3 @@
+injection seed=7: peak=9.2106052934; first_solver={'evaluations': 94, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 9.210605293583765, 'elapsed_s': 3.226909750024788}
+injection seed=19: peak=9.2106052930; first_solver={'evaluations': 94, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 9.210605293583765, 'elapsed_s': 1.193816207931377}
+injection seed=41: peak=9.2106052906; first_solver={'evaluations': 94, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 9.210605293583765, 'elapsed_s': 1.2969838749850169}

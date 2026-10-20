@@ -63,6 +63,12 @@ def margins(strengths, spec, ev=None):
     ev = evaluate(k, spec) if ev is None else ev
     c = spec['constraints']
     signs = np.array([1, -1]*4)
+    extra = []
+    if "entrance_twiss_target" in c:
+        actual = np.r_[ev["beta"][0], ev["alpha"][0]]
+        difference = actual - np.asarray(c["entrance_twiss_target"])
+        tolerance = np.asarray(c["entrance_twiss_tolerance"])
+        extra = [tolerance - difference, tolerance + difference]
     return np.concatenate([
         k*signs-c['abs_k_min'], c['abs_k_max']-k*signs,
         c['tune_tolerance']-np.abs(ev['tune']-c['tune_target']),
@@ -71,7 +77,7 @@ def margins(strengths, spec, ev=None):
         np.asarray(c['offmomentum_beta_max_each_m'])-ev['offmomentum_peak'],
         [c['max_abs_trace']-ev['max_abs_trace']],
         c['aperture_radius_m']-c['envelope_nsigma']*np.sqrt(
-            spec['geometric_emittance_m']*ev['offmomentum_peak'])])
+            spec['geometric_emittance_m']*ev['offmomentum_peak'])] + extra)
 
 
 def feasible(strengths, spec, tol=1e-8):

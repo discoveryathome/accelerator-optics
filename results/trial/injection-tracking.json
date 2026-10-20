@@ -1,0 +1,632 @@
+{
+  "checks": [
+    {
+      "candidate": "results/trial/epigraph-injection-7.json",
+      "peak_beta_m": 9.210605293397672,
+      "min_constraint_margin": -2.5090469591677953e-10,
+      "implementation_max_abs_errors": {
+        "maps": 3.552713678800501e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.2434497875801753e-14,
+        "alpha": 3.9968028886505635e-15,
+        "chromaticity": 1.1869949467779861e-11,
+        "offmomentum_peak": 1.4210854715202004e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/irregular/candidate.json",
+      "peak_beta_m": 7.3424867848443265,
+      "min_constraint_margin": 1.9982236888474371e-07,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 6.217248937900877e-15,
+        "alpha": 2.220446049250313e-15,
+        "chromaticity": 2.2942092670064085e-11,
+        "offmomentum_peak": 9.769962616701378e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    }
+  ],
+  "tracking": [
+    {
+      "seed": 1009,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.003030230233374449,
+        0.0014300365244014903
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        9.587605110515484e-07,
+        1.0172163424448596e-06
+      ],
+      "emittance_ratio": [
+        0.9993391011986295,
+        0.9975036917000357
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 2003,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.003120652574622321,
+        0.0013781037189775623
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.0079952804956178e-06,
+        9.787968729614675e-07
+      ],
+      "emittance_ratio": [
+        1.0005515159969782,
+        0.9991680114783312
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 3001,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0031201753942092536,
+        0.0013687494492597028
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        9.996469903416384e-07,
+        9.637817012720867e-07
+      ],
+      "emittance_ratio": [
+        0.9986232062113157,
+        1.0003806536310662
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 1009,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.004387983850628499,
+        0.0017220070533870565
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        1.3173921930678383e-06,
+        1.1315940881800278e-06
+      ],
+      "emittance_ratio": [
+        1.3731495143688925,
+        1.1096649093864719
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 2003,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.004665003969586207,
+        0.0016758874041325957
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.4565417591678873e-06,
+        1.0812874389678053e-06
+      ],
+      "emittance_ratio": [
+        1.4457856038093535,
+        1.1037916549131552
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 3001,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.004488132476028906,
+        0.0016671462419788102
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        1.3835066000627884e-06,
+        1.0700148108501459e-06
+      ],
+      "emittance_ratio": [
+        1.3820896877777258,
+        1.1106478930450225
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 1009,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0030308938366281402,
+        0.001432957745080926
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        9.594312186850305e-07,
+        1.0181042473551235e-06
+      ],
+      "emittance_ratio": [
+        1.0000381958691809,
+        0.998374389887737
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 2003,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0031129223052242575,
+        0.0013787582911937851
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.0098023752968498e-06,
+        9.783971146308046e-07
+      ],
+      "emittance_ratio": [
+        1.0023452659062377,
+        0.9987599332065732
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 3001,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0031089634958355937,
+        0.0013692765286064698
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        9.988950895028891e-07,
+        9.641300961244725e-07
+      ],
+      "emittance_ratio": [
+        0.9978720754285499,
+        1.000742278540204
+      ],
+      "configuration": "reference"
+    },
+    {
+      "seed": 1009,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0029160510862947177,
+        0.0025439982037267993
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        9.997650471549883e-07,
+        1.2347666589268118e-06
+      ],
+      "emittance_ratio": [
+        1.0420791137276553,
+        1.2108380973385509
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 2003,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.003074608755545247,
+        0.0024772667777071457
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.0694794425647034e-06,
+        1.1786411529311912e-06
+      ],
+      "emittance_ratio": [
+        1.0615816346477123,
+        1.2031715359466082
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 3001,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0030036761316111593,
+        0.0024569317207672327
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        1.0511466338153466e-06,
+        1.1564070391535356e-06
+      ],
+      "emittance_ratio": [
+        1.0500701065484817,
+        1.2003208072586018
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 1009,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0036360572156692375,
+        0.003208154218383547
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        1.2463744239717587e-06,
+        1.6888173312997375e-06
+      ],
+      "emittance_ratio": [
+        1.2991259884523227,
+        1.6560897149268992
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 2003,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0038754208126911102,
+        0.003118250773722978
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.3793000594967295e-06,
+        1.6032529304369116e-06
+      ],
+      "emittance_ratio": [
+        1.3691143125844971,
+        1.6366205150969249
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 3001,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.00374415179215267,
+        0.0031058270915130075
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        1.3154132333949858e-06,
+        1.581015893432465e-06
+      ],
+      "emittance_ratio": [
+        1.3140660586361184,
+        1.6410538929982905
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 1009,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0029155690569481318,
+        0.0025339161686161473
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        9.994573413389642e-07,
+        1.2326950687571977e-06
+      ],
+      "emittance_ratio": [
+        1.0417583845673755,
+        1.2088066525458798
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 2003,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0030686587963100267,
+        0.0024799065068541594
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.0723210778374325e-06,
+        1.178524148027123e-06
+      ],
+      "emittance_ratio": [
+        1.0644022852351254,
+        1.2030520958865094
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 3001,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0030033674714538645,
+        0.0024614701115332877
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        1.053937746743441e-06,
+        1.156422127420233e-06
+      ],
+      "emittance_ratio": [
+        1.0528583609703739,
+        1.2003364684919298
+      ],
+      "configuration": "free_entrance"
+    },
+    {
+      "seed": 1009,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.003025476308547224,
+        0.001431960184278583
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        9.583654919506156e-07,
+        1.017658967424523e-06
+      ],
+      "emittance_ratio": [
+        0.9989273633050345,
+        0.997937739043585
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 2003,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.00312160931776652,
+        0.0013785707862391313
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.0072437255278906e-06,
+        9.787011960563266e-07
+      ],
+      "emittance_ratio": [
+        0.9998055110534385,
+        0.9990703433045816
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 3001,
+      "scenario": "common_injection",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0031202956029544415,
+        0.0013698127854290016
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        9.988242373385659e-07,
+        9.630980084570688e-07
+      ],
+      "emittance_ratio": [
+        0.9978012958271636,
+        0.9996709980479941
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 1009,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0043843519818665385,
+        0.0017227299436190949
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        1.3171831832661333e-06,
+        1.1320484993568024e-06
+      ],
+      "emittance_ratio": [
+        1.3729316584340998,
+        1.1101105145222419
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 2003,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.004659690744101516,
+        0.0016763251128007887
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.4552687867773767e-06,
+        1.0813466728815292e-06
+      ],
+      "emittance_ratio": [
+        1.4445220319655234,
+        1.1038521216283874
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 3001,
+      "scenario": "mismatch",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.004482965297505301,
+        0.0016677244138421786
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        1.3825258468523873e-06,
+        1.0678096466800656e-06
+      ],
+      "emittance_ratio": [
+        1.3811099390014723,
+        1.10835898927053
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 1009,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0030311815836407173,
+        0.00143175813061691
+      ],
+      "initial_emittance_m": [
+        9.593945737753979e-07,
+        1.0197619827463774e-06
+      ],
+      "final_emittance_m": [
+        9.586857406602643e-07,
+        1.0175570357315499e-06
+      ],
+      "emittance_ratio": [
+        0.9992611662245032,
+        0.9978377826864174
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 2003,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.003110128997731443,
+        0.0013792275639797188
+      ],
+      "initial_emittance_m": [
+        1.0074396614063618e-06,
+        9.796118988169733e-07
+      ],
+      "final_emittance_m": [
+        1.0091326713825218e-06,
+        9.783997523327888e-07
+      ],
+      "emittance_ratio": [
+        1.0016805075688568,
+        0.9987626258055375
+      ],
+      "configuration": "fixed_entrance"
+    },
+    {
+      "seed": 3001,
+      "scenario": "errors",
+      "survival": 1.0,
+      "max_rms_at_period_start_m": [
+        0.0031171595986157546,
+        0.0013695219666381756
+      ],
+      "initial_emittance_m": [
+        1.0010251956132752e-06,
+        9.634149738640619e-07
+      ],
+      "final_emittance_m": [
+        9.99778389221233e-07,
+        9.632787169906673e-07
+      ],
+      "emittance_ratio": [
+        0.9987544705193175,
+        0.9998585688648288
+      ],
+      "configuration": "fixed_entrance"
+    }
+  ]
+}

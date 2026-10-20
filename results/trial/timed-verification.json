@@ -1,0 +1,16 @@
+{
+  "candidate": "results/analytic-candidate.json",
+  "peak_beta_m": 6.88344614609848,
+  "min_constraint_margin": 9.999999578402807e-10,
+  "implementation_max_abs_errors": {
+    "maps": 3.552713678800501e-15,
+    "tune": 1.1102230246251565e-16,
+    "beta": 7.993605777301127e-15,
+    "alpha": 1.7763568394002505e-15,
+    "chromaticity": 7.551737013500315e-13,
+    "offmomentum_peak": 8.881784197001252e-16
+  },
+  "status": "PASS",
+  "evidence_level": "author-checked",
+  "independent_review": false
+}

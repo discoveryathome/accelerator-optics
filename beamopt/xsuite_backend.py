@@ -7,10 +7,11 @@ import xobjects as xo
 
 def build(strengths, spec, apertures=False, errors=None):
     elements, names = [], []
+    aperture = spec['constraints']['aperture_radius_m']
     errors = errors or {}
     for i, (k, length) in enumerate(zip(strengths, spec['drifts_m'], strict=True)):
         if apertures:
-            elements.append(xt.LimitRect(min_x=-.02, max_x=.02, min_y=-.02, max_y=.02))
+            elements.append(xt.LimitRect(min_x=-aperture, max_x=aperture, min_y=-aperture, max_y=aperture))
             names.append(f'aperture_{i}')
         k = k * (1+errors.get('relative_gradient', np.zeros(8))[i])
         elements.append(xt.Multipole(knl=[0., float(k), errors.get('k2l', 0.)]))
@@ -18,7 +19,7 @@ def build(strengths, spec, apertures=False, errors=None):
         elements.append(xt.Drift(length=length))
         names.append(f'd{i}')
     if apertures:
-        elements.append(xt.LimitRect(min_x=-.02, max_x=.02, min_y=-.02, max_y=.02))
+        elements.append(xt.LimitRect(min_x=-aperture, max_x=aperture, min_y=-aperture, max_y=aperture))
         names.append('aperture_end')
     line = xt.Line(elements=elements, element_names=names)
     line.particle_ref = xp.Particles(p0c=spec['p0c_eV'], mass0=xp.PROTON_MASS_EV)
@@ -30,7 +31,7 @@ def evaluate(strengths, spec):
     line = build(strengths, spec)
     tw = line.twiss(method='4d', delta_chrom=spec['chromaticity_step'])
     off = [line.twiss(method='4d', delta0=d, chrom=False) for d in spec['momentum_grid']]
-    r = line.compute_one_turn_matrix_finite_differences(particle_on_co=tw.particle_on_co)['R_matrix']
+    r = line.get_R_matrix(particle_on_co=tw.particle_on_co)['R_matrix']
     return dict(tune=np.array([tw.qx, tw.qy]), chromaticity=np.array([tw.dqx, tw.dqy]),
                 beta=np.column_stack([tw.betx, tw.bety]),
                 alpha=np.column_stack([tw.alfx, tw.alfy]), s=np.array(tw.s),
@@ -68,9 +69,11 @@ def track(strengths, spec, initial_twiss, seed, scenario='matched'):
     mon = line.record_last_track
     live = np.asarray(p.state)>0
     # Lost particles are excluded only from moments; survival is reported separately.
+    # Xsuite may reorder final particle slots after losses; monitor rows use particle_id.
+    survivor_ids = np.asarray(p.particle_id)[live].astype(int)
     rms = []
     for a in [mon.x, mon.y]:
-        rms.append(float(np.max(np.std(np.asarray(a)[live,:],axis=0))) if live.any() else None)
+        rms.append(float(np.max(np.std(np.asarray(a)[survivor_ids,:],axis=0))) if live.any() else None)
     final_emit = [emittance(np.array(p.x)[live],np.array(p.px)[live]),
                   emittance(np.array(p.y)[live],np.array(p.py)[live])] if live.sum()>2 else [None,None]
     return dict(seed=seed, scenario=scenario, survival=float(live.mean()),

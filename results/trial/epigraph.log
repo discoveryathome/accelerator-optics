@@ -1,0 +1,3 @@
+nominal seed=7: peak=6.8834461433; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 6.883446143270237, 'elapsed_s': 1.1214669171022251}
+nominal seed=19: peak=6.8834461433; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 6.883446143270237, 'elapsed_s': 0.9006654160330072}
+nominal seed=41: peak=6.8834461433; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 6.883446143270237, 'elapsed_s': 2.1467190419789404}

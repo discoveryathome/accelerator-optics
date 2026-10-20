@@ -1,0 +1,98 @@
+{
+  "id": "injection",
+  "model": "thin-lens-four-cell-fodo-v1",
+  "drifts_m": [
+    1.5,
+    2.3,
+    1.8,
+    2.6,
+    2.1,
+    1.7,
+    2.4,
+    1.6
+  ],
+  "reference_strengths_m_inv": [
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5
+  ],
+  "baseline_strengths_m_inv": [
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    0.5,
+    -0.5
+  ],
+  "p0c_eV": 1000000000,
+  "geometric_emittance_m": 1e-06,
+  "chromaticity_step": 1e-05,
+  "momentum_grid": [
+    -0.02,
+    -0.01,
+    0,
+    0.01,
+    0.02
+  ],
+  "constraints": {
+    "abs_k_min": 0.35,
+    "abs_k_max": 0.65,
+    "tune_target": [
+      0.6479939393886602,
+      0.6479939393886602
+    ],
+    "tune_tolerance": 0.0001,
+    "chromaticity_abs_max": [
+      0.7861312262324176,
+      0.7861312262379687
+    ],
+    "beta_max_each_m": [
+      10.0457440335717,
+      10.822649708256575
+    ],
+    "offmomentum_beta_max_each_m": [
+      10.155058802182243,
+      10.950619163374833
+    ],
+    "max_abs_trace": 1.9,
+    "aperture_radius_m": 0.02,
+    "envelope_nsigma": 6,
+    "entrance_twiss_target": [
+      8.867682383851301,
+      1.8455370836496965,
+      -2.3680903443883774,
+      0.612554019337976
+    ],
+    "entrance_twiss_tolerance": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-05
+    ]
+  },
+  "search": {
+    "seeds": [
+      7,
+      19,
+      41
+    ],
+    "evaluation_budget": 1200
+  },
+  "tracking": {
+    "particles": 1024,
+    "periods": 256,
+    "seeds": [
+      103,
+      211,
+      307
+    ],
+    "sigma_delta": 0.005
+  }
+}

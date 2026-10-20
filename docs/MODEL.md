@@ -59,3 +59,26 @@ No space charge, alignment errors, long-term dynamic-aperture or machine validat
 A candidate passes numerical verification if all hard gates pass and Xsuite agrees with
 the independent matrix calculation. A claim of improved realistic performance also
 requires paired tracking evidence; optics improvement alone cannot authorize that claim.
+
+## Contributor-trial extensions (separate contracts)
+
+`results/longer-spec.json` and `alternating-spec.json` define held-out geometry tasks
+using the predeclared reference-derived targets. `irregular-spec.json` is a later
+exploratory nonuniform-spacing fixture starting from uniform strengths. Its tunes
+must stay within 1e-4 of its own reference, and its chromaticity, each plane's beta
+maximum and off-momentum maximum cannot worsen (1e-6 numerical slack).
+`injection-spec.json` additionally preserves entrance beta_x, beta_y, alpha_x, alpha_y
+to 1e-5. These fixtures do not alter the nominal specification or retroactively select
+the nominal candidate. Trial plans and raw results record when they were introduced.
+
+`beamopt.epigraph` minimizes a scalar t constrained to exceed every beta sample. It
+has the same physical objective as the original maximum, with smooth branches exposed
+to the optimizer. Candidate acceptance always recomputes the actual maximum; t is
+never trusted. Seeds affect later restarts; the first solve uses the same deterministic
+starting configuration, so identical first-solve results across seeds are not independent
+statistical evidence. No global optimum is certified for irregular geometries.
+
+Tracking uses rectangular apertures drawn from each specification. Final particle slots
+may be reordered after losses; monitor rows are selected using surviving particle IDs.
+The finite-magnet and tighter-aperture tests are exploratory model-transfer probes, not
+extra claims covered by the nominal thin-lens acceptance contract.

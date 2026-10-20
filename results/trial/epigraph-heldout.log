@@ -1,0 +1,9 @@
+longer seed=7: peak=7.1317355272; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 7.131735527180175, 'elapsed_s': 0.8739964999258518}
+longer seed=19: peak=7.1317355272; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 7.131735527180175, 'elapsed_s': 3.3731315420009196}
+longer seed=41: peak=7.1317355272; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 7.131735527180175, 'elapsed_s': 0.775912250042893}
+alternating seed=7: peak=6.8823621485; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 6.882362148498473, 'elapsed_s': 0.5513036249903962}
+alternating seed=19: peak=6.8823621485; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 6.882362148498473, 'elapsed_s': 0.49763616698328406}
+alternating seed=41: peak=6.8823621485; first_solver={'evaluations': 45, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 6.882362148498473, 'elapsed_s': 0.6273732499685138}
+irregular seed=7: peak=7.2859102718; first_solver={'evaluations': 94, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 7.285910271765254, 'elapsed_s': 1.8684907919960096}
+irregular seed=19: peak=7.2859102718; first_solver={'evaluations': 94, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 7.285910271765254, 'elapsed_s': 1.3851992080453783}
+irregular seed=41: peak=7.2859102718; first_solver={'evaluations': 94, 'success': True, 'message': 'Optimization terminated successfully', 'peak_beta_m': 7.285910271765254, 'elapsed_s': 1.2138295830227435}

@@ -5,7 +5,8 @@ cheaply verified beam-optics work. The concrete question, sources and claims aud
 in docs/BRIEF.md. The exact model and fixed acceptance contract are in docs/MODEL.md.
 
 The established reference is symmetric thin-lens FODO optics, not a newly discovered
-configuration. The current record is literature-backed and awaits local reproduction.
+configuration. The current local record has been numerically reproduced through independent matrix
+and Xsuite implementations. It remains author-checked and awaits a different reviewer.
 Do not treat the perturbed baseline as the scientific frontier. Report improvements
 against both the perturbed baseline and the analytic reference, with all constrained
 metrics before and after. Tunability and feasible optimization are known; short-session
@@ -25,7 +26,8 @@ also need an independent contributor's reproduction and a consenting maintainer 
 
 Priority tracks are in discover/catalog.json, reasons in discover/priority-log.md.
 The proposed tracks are reference replication, verifier robustness, generalization
-and literature/fidelity audit. No live claim board exists in LOCAL mode; local findings
+and literature/fidelity audit. The contributor trial and launch recommendation are in docs/ASSESSMENT.md.
+No live claim board exists in LOCAL mode; local findings
 and handoffs live in discover/messages.md. Never post these without permission.
 
 Review: no maintainer is assigned, no review capacity is promised, and donor intake

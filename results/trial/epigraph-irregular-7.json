@@ -1,0 +1,20 @@
+{
+  "schema": "beamopt-candidate/v1",
+  "spec_sha256": "6b449f1cf5fc353b491abc77e3cdf8c7c49c8bb626df03382afbbee0df29bdae",
+  "strengths_m_inv": [
+    0.5198762174550646,
+    -0.46002852305816844,
+    0.5052742395471713,
+    -0.5180336950101511,
+    0.4613106482682039,
+    -0.5495191829506334,
+    0.4802365239034257,
+    -0.43292726812490956
+  ],
+  "claimed_peak_beta_m": 7.285910271765169,
+  "provenance": {
+    "method": "epigraph-slsqp",
+    "seed": 7,
+    "budget": 1200
+  }
+}

@@ -1,21 +1,145 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 1,
+  "priority_revision": 2,
   "assessed_on": "2026-10-20",
   "priority_log": "discover/priority-log.md",
-  "status": "Proposed tasks; execution permission and maintainer pending",
+  "status": "Trial complete; proposed follow-up tasks, donor intake closed pending maintainer consent",
   "tracks": [
-    {"id": "replication", "weight": 35, "useful_outcome": "Reproduce the textbook reference in both implementations.", "tasks": [
-      {"id": "reference-replay", "question": "Do analytic and Xsuite FODO optics agree?", "starting_points": ["beamopt/matrix.py", "beamopt/xsuite_backend.py", "docs/BRIEF.md"], "methods": ["Analytic formula and independent numerical reproduction"], "acceptance_gate": "Reference assertions pass; logs and exact versions retained.", "first_step": {"command": [".venv/bin/python", "-m", "beamopt.verify", "--reference"], "expected": "PASS reference JSON; currently unexecuted"}, "bottleneck_link": "DISCOVERY.md", "claim_kind": ["model"]}
-    ]},
-    {"id": "verifier", "weight": 30, "useful_outcome": "Make wrong configurations cheap to reject.", "tasks": [
-      {"id": "reject-wrong-claims", "question": "Can malformed data, chromatic tradeoffs or unstable maps bypass the gates?", "starting_points": ["tests/test_verifier.py", "beamopt/verify.py"], "methods": ["Mutation tests", "Momentum-grid refinement", "Finite-difference convergence"], "acceptance_gate": "Negative candidates rejected and valid reference retained.", "first_step": {"command": [".venv/bin/python", "-m", "pytest", "-q", "tests/test_verifier.py"], "expected": "Tests pass; currently unexecuted"}, "bottleneck_link": "DISCOVERY.md", "claim_kind": ["model"]}
-    ]},
-    {"id": "generalization", "weight": 25, "useful_outcome": "Quantify method transfer and tracking limitations.", "tasks": [
-      {"id": "held-out-optics", "question": "Do settings or search methods transfer to different fixed geometries and injected beams?", "starting_points": ["beamopt/experiments.py", "docs/MODEL.md"], "methods": ["Paired seeds", "Equal-budget controls", "Off-momentum and multi-particle tracking"], "acceptance_gate": "Report all held-out outcomes including feasibility failures and worsened tracking metrics.", "first_step": {"command": [".venv/bin/python", "-m", "beamopt.verify", "--reference", "--matrix-only"], "expected": "PASS independent-matrix positive control; currently unexecuted"}, "bottleneck_link": "DISCOVERY.md", "claim_kind": ["model", "measured"]}
-    ]},
-    {"id": "literature", "weight": 10, "useful_outcome": "Decide whether a realistic follow-up has a worthwhile open question.", "tasks": [
-      {"id": "fidelity-audit", "question": "Which missing physics or apochromatic target would make a follow-up scientifically useful?", "starting_points": ["docs/BRIEF.md", "https://arxiv.org/abs/1107.2797", "https://xsuite.readthedocs.io/en/latest/match.html"], "methods": ["Primary-source audit", "Compare published objectives to benchmark"], "acceptance_gate": "Cited gap and explicit scope, no novelty claim based on absence of search hits.", "first_step": {"command": ["cat", "docs/BRIEF.md"], "expected": "Research brief and source audit"}, "bottleneck_link": "DISCOVERY.md", "claim_kind": ["argument"]}
-    ]}
+    {
+      "id": "replication",
+      "weight": 20,
+      "useful_outcome": "Reproduce the textbook reference in both implementations.",
+      "tasks": [
+        {
+          "id": "reference-replay",
+          "question": "Do analytic and Xsuite FODO optics agree?",
+          "starting_points": [
+            "beamopt/matrix.py",
+            "beamopt/xsuite_backend.py",
+            "docs/BRIEF.md"
+          ],
+          "methods": [
+            "Analytic formula and independent numerical reproduction"
+          ],
+          "acceptance_gate": "Reference assertions pass; logs and exact versions retained.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "-m",
+              "beamopt.verify",
+              "--reference"
+            ],
+            "expected": "PASS reference JSON; exercised in the contributor trial"
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "model"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verifier",
+      "weight": 30,
+      "useful_outcome": "Make wrong configurations cheap to reject.",
+      "tasks": [
+        {
+          "id": "reject-wrong-claims",
+          "question": "Can malformed data, chromatic tradeoffs or unstable maps bypass the gates?",
+          "starting_points": [
+            "tests/test_verifier.py",
+            "beamopt/verify.py"
+          ],
+          "methods": [
+            "Mutation tests",
+            "Momentum-grid refinement",
+            "Finite-difference convergence"
+          ],
+          "acceptance_gate": "Negative candidates rejected and valid reference retained.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "-m",
+              "pytest",
+              "-q",
+              "tests/test_verifier.py"
+            ],
+            "expected": "Tests pass; exercised in the contributor trial"
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "model"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generalization",
+      "weight": 20,
+      "useful_outcome": "Quantify method transfer and tracking limitations.",
+      "tasks": [
+        {
+          "id": "held-out-optics",
+          "question": "Do settings or search methods transfer to different fixed geometries and injected beams?",
+          "starting_points": [
+            "beamopt/experiments.py",
+            "docs/MODEL.md"
+          ],
+          "methods": [
+            "Paired seeds",
+            "Equal-budget controls",
+            "Off-momentum and multi-particle tracking"
+          ],
+          "acceptance_gate": "Report all held-out outcomes including feasibility failures and worsened tracking metrics.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "-m",
+              "beamopt.verify",
+              "--reference",
+              "--matrix-only"
+            ],
+            "expected": "PASS independent-matrix positive control; exercised in the contributor trial"
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "weight": 30,
+      "useful_outcome": "Decide whether a realistic follow-up has a worthwhile open question.",
+      "tasks": [
+        {
+          "id": "fidelity-audit",
+          "question": "Which missing physics or apochromatic target would make a follow-up scientifically useful?",
+          "starting_points": [
+            "docs/BRIEF.md",
+            "https://arxiv.org/abs/1107.2797",
+            "https://xsuite.readthedocs.io/en/latest/match.html"
+          ],
+          "methods": [
+            "Primary-source audit",
+            "Compare published objectives to benchmark"
+          ],
+          "acceptance_gate": "Cited gap and explicit scope, no novelty claim based on absence of search hits.",
+          "first_step": {
+            "command": [
+              "cat",
+              "docs/BRIEF.md"
+            ],
+            "expected": "Research brief and source audit"
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "argument"
+          ]
+        }
+      ]
+    }
   ]
 }

@@ -1,4 +1,4 @@
-# Proposed local pilot
+# Local pilot research brief
 
 Question: can short, deterministic numerical searches improve a perturbed four-cell
 FODO channel without violating predeclared optics, chromaticity, stability, aperture
@@ -45,5 +45,5 @@ is not evidence of chromatic correction. A linear, Hamiltonian map does not cool
 Repeated straight periodic cells are a mathematical channel, not a closed physical ring.
 
 No maintainer has consented; review capacity is zero and donor intake is closed.
-Proposed license: MIT for original code and text; upstream documents retain their licenses.
+License: MIT for original code and text; upstream documents retain their licenses.
 Credit in CONTRIBUTORS.md plus named result records; no promised scientific authorship.

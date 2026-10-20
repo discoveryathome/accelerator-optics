@@ -1,0 +1,18 @@
+{
+  "trial_start_utc": "2026-10-20T20:08:55Z",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "cpu": "Apple M2",
+  "memory_bytes": 25769803776,
+  "python": "3.13.0 (main, Oct  7 2024, 05:02:14) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "packages": {
+    "xsuite": "0.66.3",
+    "xtrack": "0.118.2",
+    "xobjects": "0.7.2",
+    "xpart": "0.23.23",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "timing_caveat": "Other CPU-intensive sessions were observed on this host. Timings are observed shared-host latency, not isolated hardware benchmarks. Full evaluation counts are the primary efficiency comparison."
+}

@@ -1,48 +1,73 @@
 # Accelerator beam-optics Discovery@Home pilot
 
-**Status: prepared, not executed. Execution approval pending.** No optimization result,
-passing verification, runtime, or particle-tracking performance is claimed yet.
-Local-only proposal; no maintainer has agreed and donor intake is closed.
+**Working local benchmark; author-checked, not independently reviewed.** The contributor
+trial found useful, fast optimization improvements, but recommends this as an
+**onboarding/demo pilot rather than a flagship discovery project yet**.
+Read the [trial assessment](docs/ASSESSMENT.md) for the evidence and launch criteria.
+No repository was published. No maintainer has agreed; donor intake is closed.
 
-Can short searches improve a perturbed periodic quadrupole channel while retaining
-specified optics and operational limits? The experiment compares constrained SLSQP
-with an equal-budget random search and a textbook symmetric FODO reference.
-See [research brief](docs/BRIEF.md), [agent entry](AGENTS.md), and
-[model and acceptance rules](docs/MODEL.md).
+The benchmark compares fixed-geometry, bounded quadrupole settings with explicit tune,
+chromaticity, stability, envelope and aperture constraints. Xsuite and a separate NumPy
+transfer-matrix implementation independently recompute candidates. Negative tests reject
+bad claims. Additional fixtures test irregular spacing and a fixed injected beam.
 
-The known result is the analytic 60 degree FODO solution: beta_max=6.9282032303 m,
-with four-cell tune 2/3 and chromaticity -0.7351051939 in both planes.
-Source: [B. Holzer, CERN accelerator-optics lectures](https://cds.cern.ch/record/1533020/files/CERN-2013-001-p171.pdf).
-These values are mathematical predictions, **not yet locally reproduced**.
+![Computed optics and matched envelopes](results/optics-envelope.png)
 
-## Execute after approval
+- Original search: peak beta **7.657629 → 6.885626 m** versus a perturbed baseline.
+- Textbook reference: **6.928203 m**. A symmetry control reaches **6.883446 m** under
+  the allowed tune/chromaticity budget, so the headline gain is mostly known recovery.
+- Equivalent minimax reformulation: **45 evaluations** to reach the control score.
+- Irregular fixture with fixed entrance optics: **10.822649 → 9.210605 m**, preserving
+  its specified tune/chromaticity/optics gates; about **7.75% smaller matched width**.
+- Nominal tracking: **no transmission improvement**; all cases survived, and some
+  optimized metrics are worse than the textbook reference. See the assessment.
 
-Use Python 3.12 or 3.13 and a project-local environment. Initial dependency versions
-are unpinned until the first successful install; freeze the environment before running
-research and retain the resulting requirements.lock. Do not describe results as
-reproducible until that lock and the verification outputs are committed.
+[Why fixed injection matters](results/injection-tradeoff.png) ·
+[Public demonstration](results/public-demo.png) · [Animation](results/public-demo.gif) ·
+[Search history plot](results/search.png) · [Tracking plot](results/tracking.png)
+
+## Reproduce
+
+Tested with Python 3.13.0 on Apple M2, CPU only. Use a local environment and the pinned
+lockfile. Linux is supported by Xsuite but was not tested in this trial.
 
 ```sh
 python3.13 -m venv .venv
-.venv/bin/python -m pip install -r requirements.in
-.venv/bin/python -m pip freeze > requirements.lock
+.venv/bin/python -m pip install -r requirements.lock
 .venv/bin/python -m beamopt.verify --reference
 .venv/bin/python -m pytest -q
+.venv/bin/python -m beamopt.reproduce
+```
+
+A single check took about 8 seconds on a busy shared host; the complete retained-candidate
+check is longer. Exact timings and package versions are in `results/trial/`.
+Recompute all original searches, tracking, added controls and visualizations in a
+fresh clone. This overwrites local generated results and refreshes author-checked
+records; it does not constitute independent scientific acceptance:
+
+```sh
 bash run.sh
 ```
 
-After the first run, reproduce with `pip install -r requirements.lock` in a fresh
-virtual environment. Recheck a candidate independently of the search:
+Run the added fixed-injection study using its committed fixture:
 
 ```sh
-.venv/bin/python -m beamopt.verify results/candidate.json
+.venv/bin/python -m beamopt.epigraph --spec results/injection-spec.json --output results/trial/injection-search.json
+.venv/bin/python -m beamopt.injection_study
 ```
 
-Planned outputs: search history and candidate JSON; independently implemented Xsuite
-and NumPy map/Twiss comparison; tracking and held-out-family JSON; optics/envelope,
-search, and tracking PNGs. Every physical constraint is a hard gate. No score in a
-candidate file is trusted. This is independent *implementation* checking by one author,
-not an independent scientific review.
+Run just one independently checked candidate:
 
-No claim of new accelerator physics or real-machine readiness is justified by this
-small model. See [assessment](docs/ASSESSMENT.md) for open validation work.
+```sh
+.venv/bin/python -m beamopt.verify results/analytic-candidate.json
+.venv/bin/python -m beamopt.verify results/trial/epigraph-injection-7.json --spec results/injection-spec.json
+```
+
+The [model contract](docs/MODEL.md) states units, all limits and missing physics.
+The [research brief](docs/BRIEF.md) cites the textbook reference; [AGENTS.md](AGENTS.md)
+and [DISCOVERY.md](DISCOVERY.md) describe contribution/review rules. Results and seeds
+are retained locally. Independent *implementations* are not independent human review.
+
+`python protocol/discover.pyz validate .` reports the intentional missing-maintainer
+schema issue. The pilot must obtain real maintainer consent before being listed;
+a fictitious name is not substituted to make validation pass.

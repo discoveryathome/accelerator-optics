@@ -1,0 +1,50 @@
+{
+  "reference": {
+    "peak": 6.928203230275512,
+    "tune": [
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "chromaticity": [
+      -0.7351051939996632,
+      -0.7351051940107655
+    ],
+    "strict_reference_feasible": true
+  },
+  "baseline": {
+    "peak": 7.6576291492032835,
+    "tune": [
+      0.6677419598754675,
+      0.6677419598754675
+    ],
+    "chromaticity": [
+      -0.7396929176117782,
+      -0.7396929176117782
+    ],
+    "strict_reference_feasible": false
+  },
+  "slsqp_candidate": {
+    "peak": 6.885625769031669,
+    "tune": [
+      0.6815969033368263,
+      0.6815454466119409
+    ],
+    "chromaticity": [
+      -0.755123104762001,
+      -0.7551050698884064
+    ],
+    "strict_reference_feasible": false
+  },
+  "analytic_control": {
+    "peak": 6.88344614609848,
+    "tune": [
+      0.6816666656666667,
+      0.6816666656666667
+    ],
+    "chromaticity": [
+      -0.755243097261271,
+      -0.7552430972723733
+    ],
+    "strict_reference_feasible": false
+  }
+}

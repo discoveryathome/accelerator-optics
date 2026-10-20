@@ -1,1 +1,8 @@
-...........
+............                                                             [100%]
+=============================== warnings summary ===============================
+tests/test_verifier.py::test_reference_xsuite
+  /Users/colkitt/discover-work/incubatedPilots/accelerator-optics/start-accelerator-optics/.venv/lib/python3.13/site-packages/xtrack/line.py:3559: FutureWarning: `Line.compute_one_turn_matrix_finite_differences()` is deprecated and will be removed in future versions. Please use `Line.get_R_matrix()` instead. This deprecation is part of the interface cleanup in view of the 1.0 release.
+    warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+12 passed, 1 warning in 9.40s

@@ -1,19 +1,62 @@
 {
   "schema": "discover/v0",
   "title": "Particle accelerator beam-optics optimization",
-  "summary": "Local, unexecuted FODO pilot with hard optics gates, independent matrix/Xsuite verification and held-out tracking experiments. Awaiting execution approval and a maintainer.",
-  "domains": ["physics", "engineering", "algorithms"],
+  "summary": "CPU-only accelerator-optics benchmark with independently implemented verification, reproducible searches and tracking. Contributor trial complete; local author-checked proposal awaiting a maintainer.",
+  "domains": [
+    "physics",
+    "engineering",
+    "algorithms"
+  ],
   "license": "MIT",
   "maintainers": [],
   "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/accelerator-optics/start-accelerator-optics",
-  "entry": {"agents": "AGENTS.md", "project": "DISCOVERY.md", "brief": "docs/BRIEF.md"},
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "brief": "docs/BRIEF.md"
+  },
   "frontier": "discover/frontier.json",
   "catalog": "discover/catalog.json",
   "priority_log": "discover/priority-log.md",
   "verification_profile": "simulation",
-  "permissions": {"post_messages": false, "open_prs": false, "maintainer_only": ["publish", "accept-results", "change-frontier"]},
-  "review": {"paused": true, "note": "Local proposal; no consenting maintainer or review capacity."},
-  "credit": {"policy": "Substantive contributors are recorded in CONTRIBUTORS.md and result provenance; scientific authorship is not promised.", "kinds": ["contributors-file", "citation"]},
-  "session": {"default_minutes": 45, "orient_fraction": 0.2, "verify_fraction": 0.3},
-  "requirements": {"os": ["macos", "linux"], "ram_gb": 4, "disk_gb": 2, "note": "Python 3.12/3.13, CPU Xsuite. Resource needs are estimates pending execution."}
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "publish",
+      "accept-results",
+      "change-frontier"
+    ]
+  },
+  "review": {
+    "paused": true,
+    "note": "Local proposal; no consenting maintainer or review capacity."
+  },
+  "credit": {
+    "policy": "Substantive contributors are recorded in CONTRIBUTORS.md and result provenance; scientific authorship is not promised.",
+    "kinds": [
+      "contributors-file",
+      "citation"
+    ]
+  },
+  "session": {
+    "default_minutes": 45,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.3
+  },
+  "requirements": {
+    "os": [
+      "macos",
+      "linux"
+    ],
+    "ram_gb": 4,
+    "disk_gb": 2,
+    "note": "Python 3.12/3.13, CPU Xsuite. Resource needs are estimates pending execution."
+  },
+  "visual": {
+    "render": "image",
+    "kind": "derived",
+    "src": "results/injection-tradeoff.png",
+    "alt": "Width optimization can worsen beam quality; preserving the incoming optics retains a smaller envelope without that mismatch."
+  }
 }
