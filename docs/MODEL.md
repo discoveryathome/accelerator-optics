@@ -82,3 +82,9 @@ Tracking uses rectangular apertures drawn from each specification. Final particl
 may be reordered after losses; monitor rows are selected using surviving particle IDs.
 The finite-magnet and tighter-aperture tests are exploratory model-transfer probes, not
 extra claims covered by the nominal thin-lens acceptance contract.
+
+The later full-lattice diagnostic records every element boundary in periods 1, 16, 64
+and 256, starting from identical reference-matched particles for all settings. It aborts
+on any particle loss to avoid confusing survivor selection with beam narrowing. Its
+reported maximum is over those sampled periods, locations and planes, not all periods.
+It is separate from the turn-start RMS metric in the initial tracking experiment.

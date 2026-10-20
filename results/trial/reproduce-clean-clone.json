@@ -1,0 +1,483 @@
+{
+  "status": "PASS",
+  "elapsed_s": 39.567922250018455,
+  "checks": [
+    {
+      "status": "PASS",
+      "reference": "analytic symmetric 60 degree FODO",
+      "peak_beta_m": 6.928203230275512,
+      "tune": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "chromaticity": [
+        -0.7351051939996632,
+        -0.7351051940107655
+      ]
+    },
+    {
+      "candidate": "results/candidate.json",
+      "peak_beta_m": 6.885625769031669,
+      "min_constraint_margin": 6.976332984030831e-05,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 2.4424906541753444e-15,
+        "chromaticity": 1.7408408048424917e-11,
+        "offmomentum_peak": 7.105427357601002e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/analytic-candidate.json",
+      "peak_beta_m": 6.88344614609848,
+      "min_constraint_margin": 9.999999578402807e-10,
+      "implementation_max_abs_errors": {
+        "maps": 3.552713678800501e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 7.993605777301127e-15,
+        "alpha": 1.7763568394002505e-15,
+        "chromaticity": 7.551737013500315e-13,
+        "offmomentum_peak": 8.881784197001252e-16
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/reduced-candidate.json",
+      "peak_beta_m": 6.928203230275512,
+      "min_constraint_margin": 0.004098563270305864,
+      "implementation_max_abs_errors": {
+        "maps": 0.0,
+        "tune": 1.1102230246251565e-16,
+        "beta": 7.993605777301127e-15,
+        "alpha": 2.220446049250313e-15,
+        "chromaticity": 1.7388424033981664e-11,
+        "offmomentum_peak": 5.329070518200751e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/candidates/random-19.json",
+      "peak_beta_m": 7.224134736516097,
+      "min_constraint_margin": 0.001991538039364568,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 3.3306690738754696e-16,
+        "beta": 1.1546319456101628e-14,
+        "alpha": 3.1086244689504383e-15,
+        "chromaticity": 4.801270492293952e-12,
+        "offmomentum_peak": 8.881784197001252e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/candidates/random-41.json",
+      "peak_beta_m": 7.379733408620314,
+      "min_constraint_margin": 0.002560728889013028,
+      "implementation_max_abs_errors": {
+        "maps": 6.661338147750939e-16,
+        "tune": 2.220446049250313e-16,
+        "beta": 7.993605777301127e-15,
+        "alpha": 2.886579864025407e-15,
+        "chromaticity": 6.297851129488663e-12,
+        "offmomentum_peak": 5.329070518200751e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/candidates/random-7.json",
+      "peak_beta_m": 7.307172354369401,
+      "min_constraint_margin": 0.0014149783089680706,
+      "implementation_max_abs_errors": {
+        "maps": 2.6645352591003757e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 6.217248937900877e-15,
+        "alpha": 1.9984014443252818e-15,
+        "chromaticity": 2.1475599076836716e-11,
+        "offmomentum_peak": 4.440892098500626e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/candidates/slsqp-19.json",
+      "peak_beta_m": 6.885625769031669,
+      "min_constraint_margin": 6.976332984030831e-05,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 2.4424906541753444e-15,
+        "chromaticity": 1.7408408048424917e-11,
+        "offmomentum_peak": 7.105427357601002e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/candidates/slsqp-41.json",
+      "peak_beta_m": 6.956113335892936,
+      "min_constraint_margin": 0.004068303796797582,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 5.329070518200751e-15,
+        "alpha": 1.7763568394002505e-15,
+        "chromaticity": 6.282085962538986e-12,
+        "offmomentum_peak": 7.105427357601002e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/candidates/slsqp-7.json",
+      "peak_beta_m": 6.887804237886206,
+      "min_constraint_margin": 3.56209349655634e-08,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 9.769962616701378e-15,
+        "alpha": 3.1086244689504383e-15,
+        "chromaticity": 1.5898615757237167e-11,
+        "offmomentum_peak": 3.552713678800501e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-alternating-19.json",
+      "peak_beta_m": 6.882362148498321,
+      "min_constraint_margin": -3.2335245592207684e-15,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 1.1102230246251565e-16,
+        "beta": 6.217248937900877e-15,
+        "alpha": 1.5543122344752192e-15,
+        "chromaticity": 6.301292820865001e-12,
+        "offmomentum_peak": 8.881784197001252e-16
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-alternating-41.json",
+      "peak_beta_m": 6.882362148498307,
+      "min_constraint_margin": 4.3021142204224816e-16,
+      "implementation_max_abs_errors": {
+        "maps": 3.552713678800501e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 4.218847493575595e-15,
+        "chromaticity": 1.590316767163813e-11,
+        "offmomentum_peak": 1.4210854715202004e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-alternating-7.json",
+      "peak_beta_m": 6.882362148498347,
+      "min_constraint_margin": -1.249000902703301e-16,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 6.217248937900877e-15,
+        "alpha": 1.5543122344752192e-15,
+        "chromaticity": 4.8009374253865644e-12,
+        "offmomentum_peak": 4.440892098500626e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-injection-19.json",
+      "peak_beta_m": 9.210605293002661,
+      "min_constraint_margin": -4.606870950282519e-09,
+      "implementation_max_abs_errors": {
+        "maps": 1.1102230246251565e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 2.220446049250313e-15,
+        "chromaticity": 1.0360268198894573e-11,
+        "offmomentum_peak": 1.2434497875801753e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-injection-41.json",
+      "peak_beta_m": 9.21060529061238,
+      "min_constraint_margin": -9.164589153129191e-09,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.5987211554602254e-14,
+        "alpha": 4.884981308350689e-15,
+        "chromaticity": 1.1869949467779861e-11,
+        "offmomentum_peak": 1.0658141036401503e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-injection-7.json",
+      "peak_beta_m": 9.210605293397672,
+      "min_constraint_margin": -2.5090469591677953e-10,
+      "implementation_max_abs_errors": {
+        "maps": 3.552713678800501e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.2434497875801753e-14,
+        "alpha": 3.9968028886505635e-15,
+        "chromaticity": 1.1869949467779861e-11,
+        "offmomentum_peak": 1.4210854715202004e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-irregular-19.json",
+      "peak_beta_m": 7.285910271765209,
+      "min_constraint_margin": 1.1212412292030405e-15,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 0.0,
+        "beta": 8.881784197001252e-15,
+        "alpha": 1.9984014443252818e-15,
+        "chromaticity": 1.039057728746684e-11,
+        "offmomentum_peak": 4.440892098500626e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-irregular-41.json",
+      "peak_beta_m": 7.285910271765214,
+      "min_constraint_margin": 1.1212412292030405e-15,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.5987211554602254e-14,
+        "alpha": 4.884981308350689e-15,
+        "chromaticity": 4.839462164341057e-12,
+        "offmomentum_peak": 3.552713678800501e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-irregular-7.json",
+      "peak_beta_m": 7.285910271765169,
+      "min_constraint_margin": -4.330710052721787e-16,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 2.886579864025407e-15,
+        "chromaticity": 1.039057728746684e-11,
+        "offmomentum_peak": 2.6645352591003757e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-longer-19.json",
+      "peak_beta_m": 7.131735527180022,
+      "min_constraint_margin": -7.91033905045424e-16,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 1.1102230246251565e-16,
+        "beta": 6.217248937900877e-15,
+        "alpha": 1.9984014443252818e-15,
+        "chromaticity": 1.584710140889456e-11,
+        "offmomentum_peak": 1.7763568394002505e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-longer-41.json",
+      "peak_beta_m": 7.131735527180019,
+      "min_constraint_margin": 9.71445146547012e-17,
+      "implementation_max_abs_errors": {
+        "maps": 1.9984014443252818e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.2434497875801753e-14,
+        "alpha": 3.9968028886505635e-15,
+        "chromaticity": 8.062439604827887e-13,
+        "offmomentum_peak": 1.3322676295501878e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-longer-7.json",
+      "peak_beta_m": 7.131735527180041,
+      "min_constraint_margin": -2.2343238370581275e-15,
+      "implementation_max_abs_errors": {
+        "maps": 5.329070518200751e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.4210854715202004e-14,
+        "alpha": 4.218847493575595e-15,
+        "chromaticity": 1.584710140889456e-11,
+        "offmomentum_peak": 6.217248937900877e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-nominal-19.json",
+      "peak_beta_m": 6.883446143270085,
+      "min_constraint_margin": -1.457167719820518e-15,
+      "implementation_max_abs_errors": {
+        "maps": 2.6645352591003757e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 2.886579864025407e-15,
+        "chromaticity": 4.795941421775751e-12,
+        "offmomentum_peak": 8.881784197001252e-16
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-nominal-41.json",
+      "peak_beta_m": 6.883446143270078,
+      "min_constraint_margin": -3.469446951953614e-16,
+      "implementation_max_abs_errors": {
+        "maps": 2.6645352591003757e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 9.769962616701378e-15,
+        "alpha": 2.886579864025407e-15,
+        "chromaticity": 6.306288824475814e-12,
+        "offmomentum_peak": 5.329070518200751e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-nominal-7.json",
+      "peak_beta_m": 6.883446143270092,
+      "min_constraint_margin": -1.3877787807814457e-17,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.509903313490213e-14,
+        "alpha": 3.9968028886505635e-15,
+        "chromaticity": 1.1857403947601597e-11,
+        "offmomentum_peak": 1.2434497875801753e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/analytic-candidate.json",
+      "peak_beta_m": 6.88344614609848,
+      "min_constraint_margin": 9.999999578402807e-10,
+      "implementation_max_abs_errors": {
+        "maps": 3.552713678800501e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 7.993605777301127e-15,
+        "alpha": 1.7763568394002505e-15,
+        "chromaticity": 7.551737013500315e-13,
+        "offmomentum_peak": 8.881784197001252e-16
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-longer-7.json",
+      "peak_beta_m": 7.131735527180041,
+      "min_constraint_margin": -2.2343238370581275e-15,
+      "implementation_max_abs_errors": {
+        "maps": 5.329070518200751e-15,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.4210854715202004e-14,
+        "alpha": 4.218847493575595e-15,
+        "chromaticity": 1.584710140889456e-11,
+        "offmomentum_peak": 6.217248937900877e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-alternating-7.json",
+      "peak_beta_m": 6.882362148498347,
+      "min_constraint_margin": -1.249000902703301e-16,
+      "implementation_max_abs_errors": {
+        "maps": 1.7763568394002505e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 6.217248937900877e-15,
+        "alpha": 1.5543122344752192e-15,
+        "chromaticity": 4.8009374253865644e-12,
+        "offmomentum_peak": 4.440892098500626e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-irregular-7.json",
+      "peak_beta_m": 7.285910271765169,
+      "min_constraint_margin": -4.330710052721787e-16,
+      "implementation_max_abs_errors": {
+        "maps": 8.881784197001252e-16,
+        "tune": 1.1102230246251565e-16,
+        "beta": 1.0658141036401503e-14,
+        "alpha": 2.886579864025407e-15,
+        "chromaticity": 1.039057728746684e-11,
+        "offmomentum_peak": 2.6645352591003757e-15
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    },
+    {
+      "candidate": "results/trial/epigraph-injection-7.json",
+      "peak_beta_m": 9.210605293397672,
+      "min_constraint_margin": -2.5090469591677953e-10,
+      "implementation_max_abs_errors": {
+        "maps": 3.552713678800501e-15,
+        "tune": 2.220446049250313e-16,
+        "beta": 1.2434497875801753e-14,
+        "alpha": 3.9968028886505635e-15,
+        "chromaticity": 1.1869949467779861e-11,
+        "offmomentum_peak": 1.4210854715202004e-14
+      },
+      "status": "PASS",
+      "evidence_level": "author-checked",
+      "independent_review": false
+    }
+  ]
+}

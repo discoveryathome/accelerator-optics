@@ -1,0 +1,54 @@
+[
+  {
+    "card": "reference-replay",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "beamopt.verify",
+      "--reference"
+    ],
+    "returncode": 0,
+    "elapsed_s": 11.536073666997254,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"reference\": \"analytic symmetric 60 degree FODO\",\n  \"peak_beta_m\": 6.928203230275512,\n  \"tune\": [\n    0.6666666666666666,\n    0.6666666666666666\n  ],\n  \"chromaticity\": [\n    -0.7351051939996632,\n    -0.7351051940107655\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "card": "reject-wrong-claims",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_verifier.py"
+    ],
+    "returncode": 0,
+    "elapsed_s": 15.837887040921487,
+    "stdout": "..............                                                           [100%]\n14 passed in 13.02s\n",
+    "stderr": ""
+  },
+  {
+    "card": "held-out-optics",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "beamopt.verify",
+      "--reference",
+      "--matrix-only"
+    ],
+    "returncode": 0,
+    "elapsed_s": 1.1143590840511024,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"reference\": \"analytic symmetric 60 degree FODO\",\n  \"peak_beta_m\": 6.928203230275512,\n  \"tune\": [\n    0.6666666666666666,\n    0.6666666666666666\n  ],\n  \"chromaticity\": [\n    -0.7351051939996632,\n    -0.7351051940107655\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "card": "fidelity-audit",
+    "command": [
+      "cat",
+      "docs/BRIEF.md"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.017115875030867755,
+    "stdout": "# Local pilot research brief\n\nQuestion: can short, deterministic numerical searches improve a perturbed four-cell\nFODO channel without violating predeclared optics, chromaticity, stability, aperture\nand integrated-gradient limits? Is any improvement more than recovery of a known solution?\n\nModel: uncoupled thin-lens quadrupoles with fixed drift geometry, proton reference\nmomentum 1 GeV/c, no bending or RF. Integrated quadrupole strength k1L in m^-1.\nAn independent NumPy matrix implementation and CERN Xsuite must agree.\nPrimary metric: maximum beta over both planes and the full period, proportional to\nsquared matched RMS envelope for equal fixed geometric emittances. Constraints are\nhard acceptance gates, never a weighted tradeoff score. Report both planes separately.\n\nKnown reference: symmetric 60 degree cells, k1L=+/-0.5 m^-1 and 2 m lens spacing.\nFor one cell L=4 m, mu=pi/3, beta_max=L(1+sin(mu/2))/sin(mu),\nbeta_min=L(1-sin(mu/2))/sin(mu), and chromaticity=-tan(mu/2)/pi.\nFour cells multiply tune and chromaticity by four. This is textbook optics, not a\nresearch frontier. A distorted reference is a recovery challenge, not a best-known result.\n\nEvidence: pinned numerical model, reproducible seeds, independent implementation checks,\nnegative tests and Xsuite particle tracking. Independent implementation does not imply\nindependent human/agent review. Evidence remains author-checked until another reviewer reruns it.\n\nClaims audit:\n- Xsuite computes maps, Twiss and chromaticity: confirmed by official Twiss documentation.\n- Bounded optics matching is established: confirmed by official Match documentation.\n- FODO optics has an analytic reference: confirmed by CERN lecture below.\n- Useful new magnet configurations can be discovered in short sessions: unverified hypothesis.\n- Linear envelope reduction implies realistic performance gains: unverified; explicitly test\n  momentum spread, mismatched injections and apertures, and state missing physics.\n\nSources, accessed 2026-10-20:\n- https://xsuite.readthedocs.io/en/latest/twiss.html (periodic/off-momentum Twiss)\n- https://xsuite.readthedocs.io/en/latest/match.html (bounded targets and matching)\n- https://xsuite.readthedocs.io/en/latest/track.html (tracking and monitors)\n- https://cds.cern.ch/record/1533020/files/CERN-2013-001-p171.pdf\n  B. Holzer, Beam Optics and Lattice Design for Particle Accelerators (2013).\n- https://arxiv.org/abs/1107.2797 V. Balandin et al. (2011), apochromatic\n  drift-quadrupole optics with symmetries; relevant follow-up, not a reproduced result.\n- https://arxiv.org/abs/2310.00317 Xsuite framework paper.\n\nSettled for this scope: a quadrupole focuses one plane and defocuses the other;\nminimizing one beta alone is inadequate. Zero dispersion in a straight ideal channel\nis not evidence of chromatic correction. A linear, Hamiltonian map does not cool a beam.\nRepeated straight periodic cells are a mathematical channel, not a closed physical ring.\n\nNo maintainer has consented; review capacity is zero and donor intake is closed.\nLicense: MIT for original code and text; upstream documents retain their licenses.\nCredit in CONTRIBUTORS.md plus named result records; no promised scientific authorship.\n",
+    "stderr": ""
+  }
+]

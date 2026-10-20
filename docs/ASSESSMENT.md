@@ -9,7 +9,8 @@ credible supply of scientifically meaningful improvements for many contributors.
 This was one agent continuing its own implementation, not a blind independent
 contributor study. It tested the contributor workflow and independent implementations;
 it did not establish a causal advantage of agents over a well-written solver.
-The run began at 2026-10-20 20:08:55 UTC. Exact environment and outputs are in
+The run began at 2026-10-20 20:08:55 UTC. The timed contributor work and validation
+ran for roughly half an hour. Exact environment and outputs are in
 `results/trial/`. Setup, research and validation are distinguished below.
 
 ## What the trial actually achieved
@@ -82,7 +83,17 @@ that ratio near unity while retaining its 14.9% beta improvement. All its tested
 particles survive. This is a useful example of agent judgment improving the task
 contract, rather than just finding lower numbers. It remains a synthetic, finite-seed
 study; ratios slightly below one are not evidence of cooling. Full results are in
-`results/trial/injection-tracking.json`, visualized in `results/injection-tradeoff.png`. None of these simulations includes space charge, RF, scattering, alignment
+`results/trial/injection-tracking.json`, visualized in `results/injection-tradeoff.png`.
+
+A final element-by-element tracking diagnostic sampled the complete lattice in periods
+1, 16, 64 and 256. With the same injected particles, the fixed-injection setting reduced
+the largest sampled RMS width by **5.47% on average** across three seeds (individual
+reductions 3.03–8.03%); with the declared gradient/sextupole errors, the mean was **5.57%**.
+All particles survived. This is a tangible multi-particle improvement in this synthetic
+model, not merely a better Twiss score. The free-entrance candidate was actually wider
+in these common-injection measurements despite its better matched-envelope score.
+These four sampled periods do not establish the maximum over every period or long-term
+stability. Data: `results/trial/full-lattice-tracking.json` and `full-profile-summary.json`. None of these simulations includes space charge, RF, scattering, alignment
 errors or a validated machine error ensemble. They cannot establish operational gains.
 
 ## Suitability against the launch criteria

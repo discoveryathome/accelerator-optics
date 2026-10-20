@@ -1,0 +1,28 @@
+{
+  "common_injection": {
+    "mean_peak_rms_m": {
+      "reference": 0.0033034640960542816,
+      "free_entrance": 0.0035354274717911433,
+      "fixed_entrance": 0.0031219800516280156
+    },
+    "paired_width_reduction_percent": [
+      8.03303929229534,
+      3.0298071684552785,
+      5.338782789669683
+    ],
+    "mean_width_reduction_percent": 5.4672097501401
+  },
+  "errors": {
+    "mean_peak_rms_m": {
+      "reference": 0.0032865629654950184,
+      "free_entrance": 0.003531711044873344,
+      "fixed_entrance": 0.003102992939674587
+    },
+    "paired_width_reduction_percent": [
+      7.45994299561985,
+      3.673578285173351,
+      5.588920222753579
+    ],
+    "mean_width_reduction_percent": 5.574147167848928
+  }
+}

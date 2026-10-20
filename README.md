@@ -19,6 +19,8 @@ bad claims. Additional fixtures test irregular spacing and a fixed injected beam
 - Equivalent minimax reformulation: **45 evaluations** to reach the control score.
 - Irregular fixture with fixed entrance optics: **10.822649 → 9.210605 m**, preserving
   its specified tune/chromaticity/optics gates; about **7.75% smaller matched width**.
+- Fixed-injection tracking: **5.47% lower largest sampled RMS width** on average across
+  three seeds, with the same incoming particles; about 5.57% with synthetic errors.
 - Nominal tracking: **no transmission improvement**; all cases survived, and some
   optimized metrics are worse than the textbook reference. See the assessment.
 

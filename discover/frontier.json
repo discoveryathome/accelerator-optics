@@ -80,6 +80,10 @@
       "sha256": "4a25253fb7e6575a0c3f026f76d2c99dc76a0e78cc286abb5b2b8465474a89d5"
     },
     {
+      "path": "beamopt/full_profile.py",
+      "sha256": "a5b8caad29a97428377b04973b0492845138a74d03e0975a29897c2aa492e1fd"
+    },
+    {
       "path": "beamopt/injection_study.py",
       "sha256": "00ab6c5a370ad87ab2bc0191c462ac30a9fac92d8da17ab7dfd05b5f0ce15f6b"
     },
@@ -173,7 +177,7 @@
     },
     {
       "path": "run.sh",
-      "sha256": "2b2746d24677fc078d0c46fdef3a0b0fe0e999216b96619e4043c6d193dcbb92"
+      "sha256": "fdc49a6a359007a273448871b631e8c968e2621b8fef81caeda60608d18d162c"
     },
     {
       "path": "tests/test_tracking_integrity.py",

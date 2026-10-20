@@ -1,0 +1,18 @@
+[
+  {
+    "method": "slsqp",
+    "seed": 19,
+    "status": "PASS",
+    "score": 6.885625769031669,
+    "evaluations": 1200,
+    "elapsed_s": 19.31559283309616
+  },
+  {
+    "method": "epigraph-slsqp",
+    "seed": 7,
+    "status": "PASS",
+    "score": 6.883446143270092,
+    "evaluations": 1200,
+    "elapsed_s": 19.00716887495946
+  }
+]

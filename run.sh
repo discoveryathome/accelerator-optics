@@ -16,6 +16,7 @@ mkdir -p results/trial
 .venv/bin/python -m beamopt.epigraph --spec configs/nominal.json results/longer-spec.json results/alternating-spec.json results/irregular-spec.json > results/trial/epigraph.log
 .venv/bin/python -m beamopt.epigraph --spec results/injection-spec.json --output results/trial/injection-search.json > results/trial/injection-search.log
 .venv/bin/python -m beamopt.injection_study > results/trial/injection-tracking.log
+.venv/bin/python -m beamopt.full_profile > results/trial/full-lattice-tracking.log
 .venv/bin/python -m beamopt.stress > results/trial/stress.log
 .venv/bin/python -m beamopt.plots
 .venv/bin/python -m beamopt.trial_plots
