@@ -1,11 +1,15 @@
 # Accelerator beam-optics Discovery@Home pilot
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 **Working local benchmark; author-checked, not independently reviewed.** The contributor
 trial found useful, fast optimization improvements, but recommends this as an
 **onboarding/demo pilot rather than a flagship discovery project yet**.
 Read the [trial assessment](docs/ASSESSMENT.md) for the evidence and launch criteria.
 Hosted privately at [discoveryathome/accelerator-optics](https://github.com/discoveryathome/accelerator-optics).
-No hub submission has been made. No maintainer has agreed; donor intake is closed.
+No hub submission has been made. Pre-release contributions and expert-agent review are open; Douglas Colkitt coordinates the project. Scientific acceptance remains subject to review.
 
 The benchmark compares fixed-geometry, bounded quadrupole settings with explicit tune,
 chromaticity, stability, envelope and aperture constraints. Xsuite and a separate NumPy

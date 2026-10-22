@@ -1,9 +1,13 @@
 # Agent entry
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Read DISCOVERY.md, docs/BRIEF.md, docs/MODEL.md and discover/frontier.json first.
 This is a private GitHub proposal at discoveryathome/accelerator-optics.
 The user authorized repository creation and pushing the local pilot on 2026-10-20.
-No hub PR is authorized. Donor intake remains closed; no maintainer consent exists.
+No hub PR is authorized. Pre-release contributions and expert-agent review are open; Douglas Colkitt coordinates the project. Scientific acceptance remains subject to review.
 The user authorized local dependency installation and benchmark execution on 2026-10-20.
 This session is unsandboxed; no further execution confirmation is needed for this trial.
 

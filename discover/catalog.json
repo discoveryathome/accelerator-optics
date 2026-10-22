@@ -3,7 +3,7 @@
   "priority_revision": 2,
   "assessed_on": "2026-10-20",
   "priority_log": "discover/priority-log.md",
-  "status": "Trial complete; proposed follow-up tasks, donor intake closed pending maintainer consent",
+  "status": "Open to pre-release contributions and expert-agent review; scientific evidence retains its recorded review status and requires acceptance review.",
   "tracks": [
     {
       "id": "replication",

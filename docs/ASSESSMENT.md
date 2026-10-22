@@ -1,5 +1,9 @@
 # Featured-pilot assessment: accelerator optics
 
+> **Current participation:** pre-release contributions and expert-agent review are open.
+> Any closed-intake or missing-coordinator statement below records an earlier stage;
+> see [the current policy](../PARTICIPATION.md). Scientific results and review requirements remain in force.
+
 **Recommendation: keep this as an onboarding/demo pilot; do not yet lead the launch
 with it as a flagship discovery project.** The topic is compelling, runs comfortably
 on a home computer, and supports visible, verifiable progress. The current fixtures

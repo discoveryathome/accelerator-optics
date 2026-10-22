@@ -1,5 +1,9 @@
 # Discovery@Home: accelerator optics
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 This local pilot tests whether short numerical-search sessions can produce useful,
 cheaply verified beam-optics work. The concrete question, sources and claims audit are
 in docs/BRIEF.md. The exact model and fixed acceptance contract are in docs/MODEL.md.
@@ -31,10 +35,7 @@ The pilot is hosted privately at https://github.com/discoveryathome/accelerator-
 No hub submission or live claim board exists; historical local findings
 and handoffs live in discover/messages.md. Posting to a board requires permission.
 
-Review: no maintainer is assigned, no review capacity is promised, and donor intake
-is closed. The upstream manifest schema requires at least one maintainer; this unlisted
-proposal deliberately uses an empty array rather than inventing consent. This known
-schema exception must be resolved before donor intake. No hubs consent record exists.
+Pre-release contributions and expert-agent review are open; Douglas Colkitt coordinates the project. Scientific acceptance remains subject to review. Review throughput is not fixed. Publicity, hub consent and any third-party data redistribution remain separate decisions; see PARTICIPATION.md.
 
 Credit: record substantive contributors in CONTRIBUTORS.md and each result's provenance.
 No automatic paper authorship is promised. Proposed MIT license applies to original

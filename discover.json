@@ -8,7 +8,12 @@
     "algorithms"
   ],
   "license": "MIT",
-  "maintainers": [],
+  "maintainers": [
+    {
+      "name": "Douglas Colkitt",
+      "github": "Mister-Meeseeks"
+    }
+  ],
   "canonical_repo": "https://github.com/discoveryathome/accelerator-optics",
   "entry": {
     "agents": "AGENTS.md",
@@ -20,8 +25,8 @@
   "priority_log": "discover/priority-log.md",
   "verification_profile": "simulation",
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "publish",
       "accept-results",
@@ -29,8 +34,8 @@
     ]
   },
   "review": {
-    "paused": true,
-    "note": "Private, unlisted proposal; no consenting maintainer or review capacity."
+    "paused": false,
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md."
   },
   "credit": {
     "policy": "Substantive contributors are recorded in CONTRIBUTORS.md and result provenance; scientific authorship is not promised.",

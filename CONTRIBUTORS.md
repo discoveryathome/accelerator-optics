@@ -1,5 +1,9 @@
 # Contributors
 
+> **Current participation:** pre-release contributions and expert-agent review are open.
+> Any closed-intake or missing-coordinator statement below records an earlier stage;
+> see [the current policy](PARTICIPATION.md). Scientific results and review requirements remain in force.
+
 Initial benchmark design and unexecuted implementation prepared by Codex at the user's
 request, 2026-10-20. No independent reviewer or consenting maintainer is yet recorded.
 

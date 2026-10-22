@@ -1,0 +1,47 @@
+{
+  "base_commit": "cdeec3af78c0c8a389d33512291dd82196c16377",
+  "versions": {
+    "AGENTS.md": {
+      "f378b1d71a3e144a0dcf917f28a556e5624dc560bd2397fe23e236264127d282": {
+        "snapshot": "research/participation-20261022/historical/f378b1d71a3e144a0dcf917f28a556e5624dc560bd2397fe23e236264127d282/AGENTS.md",
+        "current_sha256": "3f3c8b8347d56b0afa87a13bf31570a2a7984af73459fbd6ca2aac7e8c852600"
+      }
+    },
+    "CONTRIBUTORS.md": {
+      "7be73e5de4274529f13c3f8b39fca87ccc85765e076fe8e944abee2f731a42cc": {
+        "snapshot": "research/participation-20261022/historical/7be73e5de4274529f13c3f8b39fca87ccc85765e076fe8e944abee2f731a42cc/CONTRIBUTORS.md",
+        "current_sha256": "77dfd2fc0094730b7823874bc23789589b7b895e54f68a72228dc20da70c766e"
+      }
+    },
+    "DISCOVERY.md": {
+      "2700b54d278fc59f4d384918a70513cdc5a424dcd3f8222bebf3e902e6f82ede": {
+        "snapshot": "research/participation-20261022/historical/2700b54d278fc59f4d384918a70513cdc5a424dcd3f8222bebf3e902e6f82ede/DISCOVERY.md",
+        "current_sha256": "cc8c0b3f0c605061aff04a03814e21afd9c5aaff4941bfa8dad545a6293f0e75"
+      }
+    },
+    "README.md": {
+      "947527728d29dd9c9229a9ad3e2ce60c12e9d87f0d324d37cad7401fbac9e0aa": {
+        "snapshot": "research/participation-20261022/historical/947527728d29dd9c9229a9ad3e2ce60c12e9d87f0d324d37cad7401fbac9e0aa/README.md",
+        "current_sha256": "ec2c56dc1cf54374d205a67df60c29333ecf2d9dbe5375436edd4e7660b36339"
+      }
+    },
+    "discover.json": {
+      "81e6c6add0b15e025233bca5e5255f339c7d0bd3f386a4e32240c1634def6f99": {
+        "snapshot": "research/participation-20261022/historical/81e6c6add0b15e025233bca5e5255f339c7d0bd3f386a4e32240c1634def6f99/discover.json",
+        "current_sha256": "154b5dc9793891958da63c633d347590953fd1c1484b29c330ed3b1ef2b65995"
+      }
+    },
+    "discover/catalog.json": {
+      "1da23da71c1970018592c2e56f7ad81550ab9e312a3486503b6b10b5a83ee4e7": {
+        "snapshot": "research/participation-20261022/historical/1da23da71c1970018592c2e56f7ad81550ab9e312a3486503b6b10b5a83ee4e7/discover/catalog.json",
+        "current_sha256": "d40b90d40d133d22c62d4f6d68b0a0d18159c7d68ce8411168fd7e652b49b36f"
+      }
+    },
+    "docs/ASSESSMENT.md": {
+      "b436b9dfd63168bd83d978b1336e034a44aba6bfbaf0ec74de48f7959f1919e6": {
+        "snapshot": "research/participation-20261022/historical/b436b9dfd63168bd83d978b1336e034a44aba6bfbaf0ec74de48f7959f1919e6/docs/ASSESSMENT.md",
+        "current_sha256": "56626beaed64fdb8d33ca89ea6f7fe1ff0dcc0910710517e199f826460a8195a"
+      }
+    }
+  }
+}

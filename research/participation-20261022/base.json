@@ -1,0 +1,11 @@
+{
+  "base_commit": "cdeec3af78c0c8a389d33512291dd82196c16377",
+  "changed_at_first_pass": [
+    "AGENTS.md",
+    "DISCOVERY.md",
+    "README.md",
+    "discover.json",
+    "discover/catalog.json"
+  ],
+  "previous_review_note": "Private, unlisted proposal; no consenting maintainer or review capacity."
+}
